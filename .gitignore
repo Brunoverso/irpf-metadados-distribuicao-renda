@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+tmp/
+*.log
+output/pdf/*_pages/
