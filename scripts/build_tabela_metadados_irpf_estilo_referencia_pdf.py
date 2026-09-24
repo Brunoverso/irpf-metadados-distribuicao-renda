@@ -231,6 +231,8 @@ def make_short_source_label(ref: str) -> str:
     match = re.search(r"Imposto de Renda Pessoa Fisica (\d{4})", ref)
     if match:
         return f"IRPF {match.group(1)}"
+    if "Tributacao da Renda no Brasil Pos-Real" in ref:
+        return "Pos-Real 2001"
     match = re.search(r"Grandes Numeros (?:DIRPF|IRPF).*?ano-calendario (\d{4})", ref)
     if match:
         return f"GNIRPF {match.group(1)}"

@@ -59,8 +59,8 @@ Ano;Temos;Pedro;Escopo;Serie;Fonte curta;Orden.;Rendas;Exerc.;Faixas;Moeda;Unida
 1984;1;1;BR;P-RBT;AEF 1986;RBT;"RBT; RLIQ blocks";1985;14;Cr$;Cr$ mil;224/230;[39]
 1985;1;1;BR;P-RBT;IRPF 1986;RBT;"RBT; RLIQ blocks";1986;14;CZ$;CZ$ 1,00;165/165;[40]
 1986;1;1;BR;P-RBT;IRPF 1987;RBT;"RBT; RLIQ blocks";1987;11;CZ$;CZ$ 1.000;165/161;[41]
-1987;0;1;-;No data;No data;-;-;-;-;-;-;-;No data
-1988;1;1;BR;P-RBT;IRPF 1989;RBT;"RBT; RLIQ blocks";1989;9;NCz$;NCz$ 1.000;160/158;[42]
+1987;1;1;BR;P-RBT;IRPF 1988;RBT;"RBT; RLIQ blocks";1988;11;CZ$;CZ$ 1.000;2/157;[42]
+1988;1;1;BR;P-RBT;IRPF 1989;RBT;"RBT; RLIQ blocks";1989;9;NCz$;NCz$ 1.000;160/158;[43]
 1989;0;0;-;No data;No data;-;-;-;-;-;-;-;No data
 1990;0;0;-;No data;No data;-;-;-;-;-;-;-;No data
 1991;0;0;-;No data;No data;-;-;-;-;-;-;-;No data
@@ -68,32 +68,32 @@ Ano;Temos;Pedro;Escopo;Serie;Fonte curta;Orden.;Rendas;Exerc.;Faixas;Moeda;Unida
 1993;0;0;-;No data;No data;-;-;-;-;-;-;-;No data
 1994;0;0;-;No data;No data;-;-;-;-;-;-;-;No data
 1995;0;0;-;No data;No data;-;-;-;-;-;-;-;No data
-1996;0;1;-;No data;No data;-;-;-;-;-;-;-;No data
-1997;0;1;-;No data;No data;-;-;-;-;-;-;-;No data
-1998;1;1;BR;MOD;Analise DIRPF 1999;RTribB;"RBT; decl.";1999;11;R$;"R$ mi na Tabela III-A; R$ 1.000 no Quadro 04";10;[43]
+1996;1;1;BR;MOD;Pos-Real 2001;RTribB;"RBT; decl.";1997;11;R$;R$ mi;"5; 6/148; 149";[44]
+1997;1;1;BR;MOD;Pos-Real 2001;RTribB;"RBT; decl.";1998;11;R$;R$ mi;"5; 6/148; 149";[45]
+1998;1;1;BR;MOD;Analise DIRPF 1999;RTribB;"RBT; decl.";1999;11;R$;"R$ mi na Tabela III-A; R$ 1.000 no Quadro 04";10;[46]
 1999;0;0;-;No data;No data;-;-;-;-;-;-;-;No data
-2000;1;1;BR;MOD;Torres 2003;RTribB;"RBT; decl.";2001;41;R$;-;-;[44]
+2000;1;1;BR;MOD;Torres 2003;RTribB;"RBT; decl.";2001;41;R$;-;-;[47]
 2001;0;0;-;No data;No data;-;-;-;-;-;-;-;No data
-2002;1;1;BR;MOD;SRF 2004;RTribB;"RBT; decl.";2003;7;R$;R$ mi;9/5;[45]
+2002;1;1;BR;MOD;SRF 2004;RTribB;"RBT; decl.";2003;7;R$;R$ mi;9/5;[48]
 2003;0;0;-;No data;No data;-;-;-;-;-;-;-;No data
 2004;0;0;-;No data;No data;-;-;-;-;-;-;-;No data
 2005;0;0;-;No data;No data;-;-;-;-;-;-;-;No data
-2006;1;1;BR;MOD;Castro 2014;RB;"RB; decl.; Gini";2007;10;R$;R$ 1;99/99;[46]
-2007;1;1;BR;GNIRPF;GNIRPF 2007;RTOT/SM;"RBT; RTOT; BC; bens";2008;11;R$;R$ mi;"22; 23/14; 15";[47]
-2008;1;1;BR;GNIRPF;GNIRPF 2008;RTOT/SM;"RBT; RTOT; BC; bens";2009;11;R$;R$ mi;"22; 23/14; 15";[48]
-2009;1;1;BR;GNIRPF;GNIRPF 2009;RTOT/SM;"RBT; RTOT; BC; bens";2010;11;R$;R$ mi;"22; 23/14; 15";[49]
-2010;1;1;BR;GNIRPF;GNIRPF 2010;RTOT/SM;"RBT; RTOT; BC; bens";2011;11;R$;R$ mi;"22; 23/14; 15";[50]
-2011;1;1;BR;GNIRPF;GNIRPF 2011;RTOT/SM;"RBT; RTOT; BC; bens";2012;11;R$;R$ mi;"22; 23/14; 15";[51]
-2012;1;1;BR;GNIRPF;GNIRPF 2012;RTOT/SM;"RBT; RTOT; BC; bens";2013;11;R$;R$ mi;"22; 23/14; 15";[52]
-2013;1;1;BR;GNIRPF;GNIRPF 2013;RTOT/SM;"RBT; RTOT; BC; bens";2014;11;R$;R$ mi;"22; 23/14; 15";[53]
-2014;1;0;BR;GNIRPF;GNIRPF 2014;RTOT/SM;"RBT; RTOT; BC; bens";2015;17;R$;R$ mi;"27; 28; 29; 30; 31/23; 24; 25; 26; 27";[54]
-2015;1;0;BR;GNIRPF;GNIRPF 2015;RTOT/SM;"RBT; RTOT; BC; bens";2016;17;R$;R$ mi;13/9;[55]
-2016;1;0;BR;GNIRPF;GNIRPF 2016;RTOT/SM;"RBT; RTOT; BC; bens";2017;17;R$;R$ mi;13/9;[56]
-2017;1;0;BR;GNIRPF;GNIRPF 2017;RTOT/SM;"RBT; RTOT; BC; bens";2018;17;R$;R$ mi;14/9;[57]
-2018;1;0;BR;GNIRPF;GNIRPF 2018;RTOT/SM;"RBT; RTOT; BC; bens";2019;17;R$;R$ mi;14/9;[58]
-2019;1;0;BR;GNIRPF;GNIRPF 2019;RTOT/SM;"RBT; RTOT; BC; bens";2020;17;R$;R$ mi;13/9;[59]
-2020;1;0;BR;GNIRPF;GNIRPF 2020;RTOT/SM;"RBT; RTOT; BC; bens";2021;17;R$;R$ mi;13/9;[60]
-2021;1;0;BR;GNIRPF;GNIRPF 2021;RTOT/SM;"RBT; RTOT; BC; bens";2022;17;R$;R$ mi;4/XLSX;[61]
-2022;1;0;BR;GNIRPF;GNIRPF 2022;RTOT/SM;"RBT; RTOT; BC; bens";2023;17;R$;R$ mi;5/XLSX;[62]
-2023;1;0;BR;GNIRPF;GNIRPF 2023;RTOT/SM;"RBT; RTOT; BC; bens";2024;17;R$;R$ mi;4/XLSX;[63]
-2024;1;0;BR;GNIRPF;GNIRPF 2024;RTOT/SM;"RBT; RTOT; BC; bens";2025;17;R$;R$ mi;4/XLSX;[64]
+2006;1;1;BR;MOD;Castro 2014;RB;"RB; decl.; Gini";2007;10;R$;R$ 1;99/99;[49]
+2007;1;1;BR;GNIRPF;GNIRPF 2007;RTOT/SM;"RBT; RTOT; BC; bens";2008;11;R$;R$ mi;"22; 23/14; 15";[50]
+2008;1;1;BR;GNIRPF;GNIRPF 2008;RTOT/SM;"RBT; RTOT; BC; bens";2009;11;R$;R$ mi;"22; 23/14; 15";[51]
+2009;1;1;BR;GNIRPF;GNIRPF 2009;RTOT/SM;"RBT; RTOT; BC; bens";2010;11;R$;R$ mi;"22; 23/14; 15";[52]
+2010;1;1;BR;GNIRPF;GNIRPF 2010;RTOT/SM;"RBT; RTOT; BC; bens";2011;11;R$;R$ mi;"22; 23/14; 15";[53]
+2011;1;1;BR;GNIRPF;GNIRPF 2011;RTOT/SM;"RBT; RTOT; BC; bens";2012;11;R$;R$ mi;"22; 23/14; 15";[54]
+2012;1;1;BR;GNIRPF;GNIRPF 2012;RTOT/SM;"RBT; RTOT; BC; bens";2013;11;R$;R$ mi;"22; 23/14; 15";[55]
+2013;1;1;BR;GNIRPF;GNIRPF 2013;RTOT/SM;"RBT; RTOT; BC; bens";2014;11;R$;R$ mi;"22; 23/14; 15";[56]
+2014;1;0;BR;GNIRPF;GNIRPF 2014;RTOT/SM;"RBT; RTOT; BC; bens";2015;17;R$;R$ mi;"27; 28; 29; 30; 31/23; 24; 25; 26; 27";[57]
+2015;1;0;BR;GNIRPF;GNIRPF 2015;RTOT/SM;"RBT; RTOT; BC; bens";2016;17;R$;R$ mi;13/9;[58]
+2016;1;0;BR;GNIRPF;GNIRPF 2016;RTOT/SM;"RBT; RTOT; BC; bens";2017;17;R$;R$ mi;13/9;[59]
+2017;1;0;BR;GNIRPF;GNIRPF 2017;RTOT/SM;"RBT; RTOT; BC; bens";2018;17;R$;R$ mi;14/9;[60]
+2018;1;0;BR;GNIRPF;GNIRPF 2018;RTOT/SM;"RBT; RTOT; BC; bens";2019;17;R$;R$ mi;14/9;[61]
+2019;1;0;BR;GNIRPF;GNIRPF 2019;RTOT/SM;"RBT; RTOT; BC; bens";2020;17;R$;R$ mi;13/9;[62]
+2020;1;0;BR;GNIRPF;GNIRPF 2020;RTOT/SM;"RBT; RTOT; BC; bens";2021;17;R$;R$ mi;13/9;[63]
+2021;1;0;BR;GNIRPF;GNIRPF 2021;RTOT/SM;"RBT; RTOT; BC; bens";2022;17;R$;R$ mi;4/XLSX;[64]
+2022;1;0;BR;GNIRPF;GNIRPF 2022;RTOT/SM;"RBT; RTOT; BC; bens";2023;17;R$;R$ mi;5/XLSX;[65]
+2023;1;0;BR;GNIRPF;GNIRPF 2023;RTOT/SM;"RBT; RTOT; BC; bens";2024;17;R$;R$ mi;4/XLSX;[66]
+2024;1;0;BR;GNIRPF;GNIRPF 2024;RTOT/SM;"RBT; RTOT; BC; bens";2025;17;R$;R$ mi;4/XLSX;[67]
