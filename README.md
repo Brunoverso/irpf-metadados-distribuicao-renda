@@ -1,35 +1,84 @@
-# Metadados das series historicas do IRPF
+# Historical IRPF Distribution Source Metadata for Brazil
 
-Este repositorio organiza as tabelas de metadados usadas no levantamento das fontes historicas de distribuicao de renda a partir do Imposto de Renda da Pessoa Fisica no Brasil.
+This repository documents the source metadata and reproducible table assets for a research project on the historical distribution of income declared in the Brazilian Personal Income Tax, locally known as Imposto de Renda da Pessoa Fisica (IRPF).
 
-O objetivo imediato e manter, em um lugar reprodutivel, os dados-base e o codigo usado para gerar a tabela-resumo em PDF no formato de tabela academica.
+The project reconstructs and extends the documentary basis used by Pedro Herculano G. F. de Souza in Table 4 of his doctoral dissertation, with special attention to calendar-year coverage, income concept, geographic scope, source location, and comparability across publications.
 
-## Conteudo
+## Research Scope
 
-- `data/tabela_metadados_distribuicoes_irpf.csv`: tabela principal de metadados, com um registro por ano-calendario.
-- `data/tabela_metadados_irpf_estilo_referencia.csv`: versao compacta da tabela usada no PDF.
-- `scripts/build_tabela_metadados_irpf_estilo_referencia_pdf.py`: script Python que gera o PDF a partir do CSV principal.
-- `output/pdf/tabela_metadados_irpf_estilo_referencia.pdf`: PDF gerado com a tabela compacta e as referencias.
+The current metadata file covers calendar years 1927-2024. It distinguishes:
 
-## Como reproduzir o PDF
+- years with data already incorporated into this project;
+- years covered in Pedro Herculano G. F. de Souza's Table 4;
+- years available only as regional or parallel series;
+- years that remain undocumented in the target historical range.
 
-1. Instalar as dependencias:
+The repository currently stores metadata and generated research assets. It does not store the full raw PDF corpus, because some files are large, some are local archive copies, and some were received through private correspondence.
+
+## Repository Structure
+
+```text
+data/
+  raw/        Source-layer notes and future raw manifests.
+  refined/    Intermediate extraction outputs and harmonization checks.
+  trusted/    Curated metadata used as the research source of truth.
+outputs/
+  metadata/
+    tables/   Generated CSV and PDF table assets for the metadata module.
+    figures/  Generated figures for the metadata module, when available.
+scripts/      Reproducible scripts callable locally or by GitHub Actions.
+.github/
+  workflows/  Continuous-integration workflows for rebuilding assets.
+```
+
+## Main Files
+
+- `data/trusted/irpf_distribution_source_metadata_yearly.csv`: curated yearly metadata, one row per calendar year.
+- `outputs/metadata/tables/irpf_distribution_metadata_reference_table.csv`: compact table generated from the trusted metadata.
+- `outputs/metadata/tables/irpf_distribution_metadata_reference_table.pdf`: PDF version of the compact reference table.
+- `scripts/build_metadata_reference_table.py`: command-line script used to regenerate the table assets.
+
+## Reproducibility
+
+Install dependencies:
 
 ```powershell
 python -m pip install -r requirements.txt
 ```
 
-2. Rodar o script:
+Regenerate the metadata table assets:
 
 ```powershell
-python scripts/build_tabela_metadados_irpf_estilo_referencia_pdf.py
+python scripts/build_all_assets.py
 ```
 
-O script atualiza:
+The same command is also run by the GitHub Actions workflow. The workflow checks whether the committed generated assets match the current trusted metadata and scripts.
 
-- `data/tabela_metadados_irpf_estilo_referencia.csv`
-- `output/pdf/tabela_metadados_irpf_estilo_referencia.pdf`
+## Future Archival Plan
 
-## Observacao
+The research dataset will eventually be prepared for deposition in Zenodo to obtain a DOI. The intended long-term output is a citable research dataset and, if appropriate, a data descriptor article in a journal such as Scientific Data.
 
-Este repositorio guarda apenas as tabelas de metadados e o codigo de geracao do PDF. Os PDFs brutos, imagens de OCR, arquivos temporarios e demais materiais grandes ficam fora deste repositorio.
+Before public archival, the repository should define:
+
+- a stable release version;
+- a data license;
+- the final list of authors and contributors;
+- ORCID identifiers;
+- a complete citation file;
+- a description of which raw source files can be redistributed.
+
+## Maintainer
+
+Bruno Freitas Lima  
+Graduate student, Graduate Program in Applied Physics  
+Federal University of Rio de Janeiro (UFRJ), Brazil
+
+Professional contact: TODO - add institutional e-mail  
+ORCID: TODO  
+Lattes: TODO
+
+Academic supervision: Prof. Marcelo Byrro Ribeiro, UFRJ.
+
+## Citation
+
+This repository is under active development. For now, please cite the repository URL and contact the maintainer before using the metadata in published work. A DOI-based citation will be added after the Zenodo release.

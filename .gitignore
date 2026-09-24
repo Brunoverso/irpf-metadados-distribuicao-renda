@@ -5,3 +5,5 @@ venv/
 tmp/
 *.log
 output/pdf/*_pages/
+outputs/**/*_pages/
+outputs/**/qa_*.png

@@ -1,0 +1,44 @@
+name: Build metadata assets
+
+on:
+  push:
+    paths:
+      - "data/**"
+      - "outputs/metadata/tables/**"
+      - "scripts/**"
+      - "requirements.txt"
+      - ".github/workflows/build-metadata-assets.yml"
+  pull_request:
+    paths:
+      - "data/**"
+      - "outputs/metadata/tables/**"
+      - "scripts/**"
+      - "requirements.txt"
+      - ".github/workflows/build-metadata-assets.yml"
+  workflow_dispatch:
+
+jobs:
+  build-metadata-assets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Build table assets
+        run: python scripts/build_all_assets.py
+
+      - name: Verify generated assets are committed
+        run: |
+          git diff --exit-code -- \
+            data/trusted/irpf_distribution_source_metadata_yearly.csv \
+            outputs/metadata/tables/irpf_distribution_metadata_reference_table.csv \
+            outputs/metadata/tables/irpf_distribution_metadata_reference_table.pdf

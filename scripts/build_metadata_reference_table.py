@@ -1,36 +1,34 @@
 from __future__ import annotations
 
+import argparse
 import csv
 import html
 import re
 import unicodedata
 from pathlib import Path
 
+from reportlab import rl_config
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT
 from reportlab.lib.pagesizes import A4, landscape
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import cm
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import LongTable, PageBreak, Paragraph, SimpleDocTemplate, Spacer, TableStyle
 
 
+rl_config.invariant = 1
+
 ROOT = Path(__file__).resolve().parents[1]
-IN_CSV = ROOT / "data" / "tabela_metadados_distribuicoes_irpf.csv"
-OUT_DIR = ROOT / "output" / "pdf"
-OUT_PDF = OUT_DIR / "tabela_metadados_irpf_estilo_referencia.pdf"
-OUT_COMPACT_CSV = ROOT / "data" / "tabela_metadados_irpf_estilo_referencia.csv"
+DEFAULT_INPUT_CSV = ROOT / "data" / "trusted" / "irpf_distribution_source_metadata_yearly.csv"
+DEFAULT_OUTPUT_TABLES_DIR = ROOT / "outputs" / "metadata" / "tables"
+DEFAULT_OUTPUT_PDF = DEFAULT_OUTPUT_TABLES_DIR / "irpf_distribution_metadata_reference_table.pdf"
+DEFAULT_OUTPUT_COMPACT_CSV = (
+    DEFAULT_OUTPUT_TABLES_DIR / "irpf_distribution_metadata_reference_table.csv"
+)
 
 
 def register_fonts() -> tuple[str, str]:
-    fonts_dir = Path(r"C:\Windows\Fonts")
-    normal = fonts_dir / "times.ttf"
-    bold = fonts_dir / "timesbd.ttf"
-    if normal.exists() and bold.exists():
-        pdfmetrics.registerFont(TTFont("TimesCustom", str(normal)))
-        pdfmetrics.registerFont(TTFont("TimesCustom-Bold", str(bold)))
-        return "TimesCustom", "TimesCustom-Bold"
+    # Built-in PDF fonts keep local and GitHub Actions output stable across platforms.
     return "Times-Roman", "Times-Bold"
 
 
@@ -41,6 +39,14 @@ def clean(value: str | None) -> str:
     if value is None:
         return ""
     return " ".join(str(value).replace("\n", " ").split()).strip()
+
+
+def value(row: dict[str, str], name: str, legacy_name: str | None = None) -> str:
+    if name in row:
+        return clean(row.get(name))
+    if legacy_name and legacy_name in row:
+        return clean(row.get(legacy_name))
+    return ""
 
 
 def strip_accents(value: str) -> str:
@@ -59,8 +65,8 @@ def short_scope(value: str) -> str:
 
 
 def short_series(row: dict[str, str]) -> str:
-    series = clean(row.get("serie_uso_recomendado"))
-    status = clean(row.get("status_cobertura"))
+    series = value(row, "recommended_series", "serie_uso_recomendado")
+    status = value(row, "coverage_status", "status_cobertura")
     mapping = {
         "serie historica nacional principal": "N-RLIQ",
         "serie historica regional/local": "R-LOC",
@@ -111,7 +117,7 @@ def short_reported(value: str) -> str:
 
 
 def short_unit(row: dict[str, str]) -> str:
-    unit = clean(row.get("unidade_agregados"))
+    unit = value(row, "aggregate_unit", "unidade_agregados")
     if not unit:
         return "-"
     unit = unit.replace("R$ 1.000.000", "R$ mi")
@@ -123,8 +129,8 @@ def short_unit(row: dict[str, str]) -> str:
 
 
 def short_pages(row: dict[str, str]) -> str:
-    pdf_page = clean(row.get("pagina_pdf"))
-    printed = clean(row.get("pagina_impressa"))
+    pdf_page = value(row, "pdf_page", "pagina_pdf")
+    printed = value(row, "printed_page", "pagina_impressa")
     if not pdf_page and not printed:
         return "-"
     if pdf_page and printed:
@@ -135,11 +141,13 @@ def short_pages(row: dict[str, str]) -> str:
 
 
 def source_reference(row: dict[str, str]) -> str:
-    source = clean(row.get("fonte_principal"))
+    source = value(row, "primary_source", "fonte_principal")
     if not source:
         return ""
-    link = clean(row.get("link_pdf_download")) or clean(row.get("link_fonte_principal"))
-    local_file = clean(row.get("arquivo_local"))
+    link = value(row, "pdf_download_url", "link_pdf_download") or value(
+        row, "primary_source_url", "link_fonte_principal"
+    )
+    local_file = value(row, "local_file", "arquivo_local")
     if link:
         return f"{source} URL: {link}"
     if local_file:
@@ -205,8 +213,8 @@ def build_styles() -> dict[str, ParagraphStyle]:
     }
 
 
-def load_rows() -> list[dict[str, str]]:
-    with IN_CSV.open(encoding="utf-8-sig", newline="") as f:
+def load_rows(input_csv: Path) -> list[dict[str, str]]:
+    with input_csv.open(encoding="utf-8-sig", newline="") as f:
         return list(csv.DictReader(f, delimiter=";"))
 
 
@@ -274,17 +282,17 @@ def compact_rows(rows: list[dict[str, str]]) -> tuple[list[list[str]], list[str]
 
         compact.append(
             [
-                clean(row.get("ano_calendario")),
-                clean(row.get("temos_flag")) or "0",
-                clean(row.get("pedro_tem_flag")) or "0",
-                short_scope(row.get("escopo_geografico")),
+                value(row, "calendar_year", "ano_calendario"),
+                value(row, "project_has_data", "temos_flag") or "0",
+                value(row, "pedro_table4_has_data", "pedro_tem_flag") or "0",
+                short_scope(value(row, "geographic_scope", "escopo_geografico")),
                 short_series(row),
                 source_label,
-                short_concept(row.get("conceito_ordenamento")),
-                short_reported(row.get("rendas_reportadas")),
-                clean(row.get("ano_exercicio")) or "-",
-                clean(row.get("numero_faixas")) or "-",
-                clean(row.get("moeda")) or "-",
+                short_concept(value(row, "ordering_concept", "conceito_ordenamento")),
+                short_reported(value(row, "reported_incomes", "rendas_reportadas")),
+                value(row, "tax_return_year", "ano_exercicio") or "-",
+                value(row, "number_of_brackets", "numero_faixas") or "-",
+                value(row, "currency", "moeda") or "-",
                 short_unit(row),
                 short_pages(row),
                 data_ref,
@@ -294,25 +302,25 @@ def compact_rows(rows: list[dict[str, str]]) -> tuple[list[list[str]], list[str]
     return compact, refs
 
 
-def write_compact_csv(rows: list[list[str]]) -> None:
-    OUT_COMPACT_CSV.parent.mkdir(parents=True, exist_ok=True)
+def write_compact_csv(rows: list[list[str]], output_csv: Path) -> None:
+    output_csv.parent.mkdir(parents=True, exist_ok=True)
     header = [
-        "Ano",
-        "Temos",
+        "Year",
+        "Project",
         "Pedro",
-        "Escopo",
-        "Serie",
-        "Fonte curta",
-        "Orden.",
-        "Rendas",
-        "Exerc.",
-        "Faixas",
-        "Moeda",
-        "Unidade",
-        "Pag.",
+        "Scope",
+        "Series",
+        "Short source",
+        "Order",
+        "Income vars",
+        "Return",
+        "Brackets",
+        "Currency",
+        "Unit",
+        "Pages",
         "Ref.",
     ]
-    with OUT_COMPACT_CSV.open("w", encoding="utf-8", newline="") as f:
+    with output_csv.open("w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f, delimiter=";")
         writer.writerow(header)
         writer.writerows(rows)
@@ -346,15 +354,19 @@ class NumberedCanvas:
         self._canvas.drawCentredString(width / 2.0, 0.65 * cm, str(self._canvas._pageNumber))
 
 
-def build_pdf() -> None:
+def build_pdf(
+    input_csv: Path = DEFAULT_INPUT_CSV,
+    output_pdf: Path = DEFAULT_OUTPUT_PDF,
+    output_compact_csv: Path = DEFAULT_OUTPUT_COMPACT_CSV,
+) -> None:
     styles = build_styles()
-    rows = load_rows()
+    rows = load_rows(input_csv)
     compact, refs = compact_rows(rows)
-    write_compact_csv(compact)
+    write_compact_csv(compact, output_compact_csv)
 
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    output_pdf.parent.mkdir(parents=True, exist_ok=True)
     doc = SimpleDocTemplate(
-        str(OUT_PDF),
+        str(output_pdf),
         pagesize=landscape(A4),
         leftMargin=1.15 * cm,
         rightMargin=1.15 * cm,
@@ -367,28 +379,29 @@ def build_pdf() -> None:
     story: list = []
     caption = (
         "Table 1: Integrated annual source, extraction, and coverage metadata for the IRPF "
-        "distribution series. 'Temos' and 'Pedro' are 1/0 indicators for data currently "
-        "incorporated and for availability in Pedro Herculano G. F. de Souza's Table 4. "
-        "'Escopo' identifies geographic coverage (BR, DF, GB), 'Serie' classifies the "
-        "recommended use, 'Orden.' identifies the ordering/income concept, and 'Pag.' gives "
+        "distribution series. 'Project' and 'Pedro' are 1/0 indicators for data currently "
+        "incorporated in this repository and for availability in Pedro Herculano G. F. de "
+        "Souza's Table 4. 'Scope' identifies geographic coverage (BR, DF, GB), 'Series' "
+        "classifies the recommended use, 'Order' identifies the ordering/income concept, "
+        "and 'Pages' gives "
         "PDF/printed page locations when available. Missing years are marked as 'No data'."
     )
     story.append(paragraph(caption, styles["caption"]))
 
     header = [
-        "Ano",
-        "Temos",
+        "Year",
+        "Project",
         "Pedro",
-        "Esc.",
-        "Serie",
-        "Fonte",
-        "Orden.",
-        "Rendas",
-        "Exerc.",
-        "Fx.",
-        "Moeda",
-        "Unid.",
-        "Pag.",
+        "Scope",
+        "Series",
+        "Source",
+        "Order",
+        "Income",
+        "Return",
+        "N",
+        "Curr.",
+        "Unit",
+        "Pages",
         "Ref.",
     ]
     table_data = [[paragraph(cell, styles["table_header"]) for cell in header]]
@@ -436,9 +449,42 @@ def build_pdf() -> None:
         story.append(Paragraph(f"[{idx}] {escape(ref)}", styles["ref"]))
 
     doc.build(story, canvasmaker=NumberedCanvas)
-    print(OUT_PDF)
-    print(OUT_COMPACT_CSV)
+    print(output_pdf)
+    print(output_compact_csv)
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description=(
+            "Build the compact reference-table CSV and PDF from the trusted yearly IRPF "
+            "source metadata."
+        )
+    )
+    parser.add_argument(
+        "--input",
+        type=Path,
+        default=DEFAULT_INPUT_CSV,
+        help="Path to the trusted yearly metadata CSV.",
+    )
+    parser.add_argument(
+        "--output-pdf",
+        type=Path,
+        default=DEFAULT_OUTPUT_PDF,
+        help="Path for the generated PDF table.",
+    )
+    parser.add_argument(
+        "--output-csv",
+        type=Path,
+        default=DEFAULT_OUTPUT_COMPACT_CSV,
+        help="Path for the generated compact CSV table.",
+    )
+    return parser.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
+    build_pdf(args.input, args.output_pdf, args.output_csv)
 
 
 if __name__ == "__main__":
-    build_pdf()
+    main()
