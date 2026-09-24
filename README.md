@@ -70,7 +70,7 @@ Before public archival, the repository should define:
 ## Maintainer
 
 Bruno Freitas Lima  
-Graduate student, Graduate Program in Applied Physics  
+Program in Applied Physics  
 Federal University of Rio de Janeiro (UFRJ), Brazil
 
 Professional contact: TODO - add institutional e-mail  
