@@ -19,7 +19,7 @@ The repository currently stores metadata and generated research assets. It does 
 
 ```text
 data/
-  raw/        Source-layer notes and future raw manifests.
+  raw/        Source-layer notes, raw manifests, and ignored local PDF cache.
   refined/    Intermediate extraction outputs and harmonization checks.
   trusted/    Curated metadata used as the research source of truth.
 outputs/
@@ -35,9 +35,11 @@ scripts/      Reproducible scripts callable locally or by GitHub Actions.
 
 - `data/trusted/irpf_distribution_source_metadata_yearly.csv`: curated yearly metadata, one row per calendar year.
 - `data/raw/manifests/irpf_raw_pdf_manifest.csv`: manifest of local raw PDF sources, with checksums, sizes, relative paths, public links when identified, and redistribution notes.
+- `data/raw/pdfs/`: ignored local cache for public PDFs reconstructed from the manifest.
 - `outputs/metadata/tables/irpf_distribution_metadata_reference_table.csv`: compact table generated from the trusted metadata.
 - `outputs/metadata/tables/irpf_distribution_metadata_reference_table.pdf`: PDF version of the compact reference table.
 - `scripts/build_metadata_reference_table.py`: command-line script used to regenerate the table assets.
+- `scripts/fetch_public_pdfs.py`: command-line script used to fetch public source PDFs listed in the raw manifest and verify their checksums.
 
 ## Reproducibility
 
@@ -54,6 +56,20 @@ python scripts/build_all_assets.py
 ```
 
 The same command is also run by the GitHub Actions workflow. The workflow checks whether the committed generated assets match the current trusted metadata and scripts.
+
+Inspect the public source PDFs that can be reconstructed from the manifest:
+
+```powershell
+python scripts/fetch_public_pdfs.py --dry-run
+```
+
+Download those public PDFs into the ignored local cache:
+
+```powershell
+python scripts/fetch_public_pdfs.py
+```
+
+Files received through private correspondence are documented in the manifest but are not downloaded or redistributed by this repository.
 
 ## Future Archival Plan
 

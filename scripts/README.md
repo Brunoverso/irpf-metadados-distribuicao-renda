@@ -22,6 +22,18 @@ Build the raw PDF source manifest from the local research workspace:
 python scripts/build_raw_pdf_manifest.py
 ```
 
+Download public source PDFs listed in the raw manifest into the ignored local cache:
+
+```powershell
+python scripts/fetch_public_pdfs.py
+```
+
+Inspect what would be downloaded without making network requests:
+
+```powershell
+python scripts/fetch_public_pdfs.py --dry-run
+```
+
 Optional explicit paths:
 
 ```powershell
