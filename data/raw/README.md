@@ -11,3 +11,5 @@ Future files in this folder may include:
 - download URLs;
 - archive call numbers;
 - access notes for physical or digital repositories.
+
+Current manifests are stored in `manifests/`.

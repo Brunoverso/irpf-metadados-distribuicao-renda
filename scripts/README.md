@@ -16,6 +16,12 @@ Build only the compact metadata reference table:
 python scripts/build_metadata_reference_table.py
 ```
 
+Build the raw PDF source manifest from the local research workspace:
+
+```powershell
+python scripts/build_raw_pdf_manifest.py
+```
+
 Optional explicit paths:
 
 ```powershell

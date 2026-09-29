@@ -34,6 +34,7 @@ scripts/      Reproducible scripts callable locally or by GitHub Actions.
 ## Main Files
 
 - `data/trusted/irpf_distribution_source_metadata_yearly.csv`: curated yearly metadata, one row per calendar year.
+- `data/raw/manifests/irpf_raw_pdf_manifest.csv`: manifest of local raw PDF sources, with checksums, sizes, relative paths, public links when identified, and redistribution notes.
 - `outputs/metadata/tables/irpf_distribution_metadata_reference_table.csv`: compact table generated from the trusted metadata.
 - `outputs/metadata/tables/irpf_distribution_metadata_reference_table.pdf`: PDF version of the compact reference table.
 - `scripts/build_metadata_reference_table.py`: command-line script used to regenerate the table assets.
