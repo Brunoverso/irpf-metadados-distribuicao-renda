@@ -1,19 +1,19 @@
-# Local Raw PDF Cache
+# Raw PDF Sources
 
-This folder is reserved for a local cache of raw PDF source files reconstructed from the public URLs listed in `../manifests/irpf_raw_pdf_manifest.csv`.
+This folder stores raw PDF source files when their redistribution status allows versioning in this repository.
 
-The PDF files themselves are not committed to Git. They are intentionally ignored because the corpus is large and because redistribution rights vary by source. Publicly downloadable files can be fetched again from the manifest, while files received through private correspondence should remain documented only by metadata unless explicit redistribution permission is obtained.
+## Versioned Files
 
-To inspect what would be downloaded:
+Public source PDFs with identified public URLs are stored in `public/` and tracked with Git LFS.
 
-```powershell
-python scripts/fetch_public_pdfs.py --dry-run
-```
+## Files Not Versioned Here
 
-To download public source PDFs into this ignored cache:
+The following folders are intentionally ignored:
 
-```powershell
-python scripts/fetch_public_pdfs.py
-```
+- `private/`: files received through private correspondence or requiring explicit redistribution permission.
+- `cache/`: temporary local downloads reconstructed from the public URLs listed in `../manifests/irpf_raw_pdf_manifest.csv`.
+- `tmp/`: temporary working files.
 
-Each downloaded file is checked against the SHA-256 checksum stored in the manifest. If the checksum does not match, the file is not accepted.
+Files received through private correspondence remain documented in the manifest but should not be redistributed without explicit permission.
+
+Use `../manifests/irpf_raw_pdf_manifest.csv` for checksums, source URLs, and redistribution notes.

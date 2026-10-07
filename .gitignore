@@ -7,6 +7,6 @@ tmp/
 output/pdf/*_pages/
 outputs/**/*_pages/
 outputs/**/qa_*.png
-data/raw/pdfs/**
-!data/raw/pdfs/
-!data/raw/pdfs/README.md
+data/raw/pdfs/cache/**
+data/raw/pdfs/private/**
+data/raw/pdfs/tmp/**

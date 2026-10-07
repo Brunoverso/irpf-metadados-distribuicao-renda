@@ -13,7 +13,7 @@ The current metadata file covers calendar years 1927-2024. It distinguishes:
 - years available only as regional or parallel series;
 - years that remain undocumented in the target historical range.
 
-The repository currently stores metadata and generated research assets. It does not store the full raw PDF corpus, because some files are large, some are local archive copies, and some were received through private correspondence.
+The repository stores metadata, extracted data, generated research assets, and public raw PDF sources tracked with Git LFS. It does not redistribute source files received through private correspondence or local archive copies without an identified public URL.
 
 ## Repository Structure
 
@@ -39,7 +39,7 @@ scripts/      Reproducible scripts callable locally or by GitHub Actions.
 - `data/refined/extractions/`: sanitized copies of the source extraction CSVs used to build the combined data package.
 - `data/refined/irpf_extracted_tables_manifest.csv`: manifest of extraction tables included in the data package.
 - `data/raw/manifests/irpf_raw_pdf_manifest.csv`: manifest of local raw PDF sources, with checksums, sizes, relative paths, public links when identified, and redistribution notes.
-- `data/raw/pdfs/`: ignored local cache for public PDFs reconstructed from the manifest.
+- `data/raw/pdfs/public/`: public raw source PDFs tracked with Git LFS.
 - `outputs/metadata/tables/irpf_distribution_metadata_reference_table.csv`: compact table generated from the trusted metadata.
 - `outputs/metadata/tables/irpf_distribution_metadata_reference_table.pdf`: PDF version of the compact reference table.
 - `scripts/build_metadata_reference_table.py`: command-line script used to regenerate the table assets.
