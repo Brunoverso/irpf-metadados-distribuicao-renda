@@ -215,9 +215,9 @@ def classify_access(rel_path: str, urls: set[str]) -> tuple[str, str, str]:
     rel_lower = rel_path.lower()
     if "pedro_herculano_anexos/" in rel_lower:
         return (
-            "private_correspondence",
-            "do_not_redistribute_without_permission",
-            "File received through private correspondence; keep the local copy documented but do not redistribute without permission.",
+            "public_origin_no_public_url_identified",
+            "public_origin_confirmed_by_project_owner",
+            "File received through correspondence from Pedro Herculano G. F. de Souza; the project owner reports public origin, but no direct public URL has been identified in the metadata.",
         )
     if urls:
         return (
@@ -309,7 +309,7 @@ def write_summary(rows: list[dict[str, str]], output_summary: Path) -> None:
     lines = [
         "# Raw PDF Manifest Summary",
         "",
-        "This summary describes the generated raw PDF manifest. The PDFs themselves are not versioned in this repository.",
+        "This summary describes the generated raw PDF manifest and the raw PDF files versioned in this repository through Git LFS.",
         "",
         f"- PDF files listed: {len(rows)}",
         f"- Total listed size: {total_size / (1024 * 1024):.2f} MB",

@@ -1,10 +1,10 @@
 # Raw Data Layer
 
-This folder is reserved for raw-source manifests, documentation, and an ignored local cache of reconstructible source PDFs.
+This folder is reserved for raw-source manifests, documentation, versioned raw PDFs, and an ignored local cache of reconstructible source PDFs.
 
-The full raw corpus is not currently versioned here. It includes large historical PDFs, archive scans, OCR outputs, and files received through correspondence. Those materials are stored in the local research workspace and should only be published after their redistribution status is reviewed.
+Raw PDFs whose redistribution status allows publication are tracked with Git LFS under `pdfs/`. Any additional local materials should only be published after their redistribution status is reviewed.
 
-The `pdfs/` folder is an ignored local cache. Publicly downloadable PDFs can be reconstructed from the manifest with `scripts/fetch_public_pdfs.py`; private correspondence files remain documented only by metadata unless explicit redistribution permission is obtained.
+The `pdfs/cache/` folder is an ignored local cache. Publicly downloadable PDFs can be reconstructed there from the manifest with `scripts/fetch_public_pdfs.py`.
 
 Future files in this folder may include:
 

@@ -13,7 +13,7 @@ The current metadata file covers calendar years 1927-2024. It distinguishes:
 - years available only as regional or parallel series;
 - years that remain undocumented in the target historical range.
 
-The repository stores metadata, extracted data, generated research assets, and raw PDF sources tracked with Git LFS. It does not redistribute source files received through private correspondence without explicit permission.
+The repository stores metadata, extracted data, generated research assets, and raw PDF sources tracked with Git LFS. Files received by correspondence are included only when the project owner has confirmed public origin or redistribution permission.
 
 ## Repository Structure
 
@@ -75,7 +75,7 @@ Download those public PDFs into the ignored local cache:
 python scripts/fetch_public_pdfs.py
 ```
 
-Files received through private correspondence are documented in the manifest but are not downloaded or redistributed by this repository.
+Files received by correspondence are redistributed only when public origin or permission has been confirmed; otherwise they should stay outside the repository.
 
 ## Future Archival Plan
 

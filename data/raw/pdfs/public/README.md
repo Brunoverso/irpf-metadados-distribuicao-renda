@@ -14,5 +14,4 @@ Current contents:
 
 Not included here:
 
-- source PDFs received through private correspondence;
-- local source PDFs for which no public URL has been identified; these are stored separately in `../local/`.
+- source PDFs without an identified public URL; these are stored separately in `../local/` when their redistribution status allows versioning.

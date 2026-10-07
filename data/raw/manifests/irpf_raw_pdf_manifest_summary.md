@@ -1,6 +1,6 @@
 # Raw PDF Manifest Summary
 
-This summary describes the generated raw PDF manifest. The PDFs themselves are not versioned in this repository.
+This summary describes the generated raw PDF manifest and the raw PDF files versioned in this repository through Git LFS.
 
 - PDF files listed: 103
 - Total listed size: 1944.27 MB
@@ -8,7 +8,7 @@ This summary describes the generated raw PDF manifest. The PDFs themselves are n
 ## Access Categories
 
 - `local_copy_no_public_url_identified`: 15
-- `private_correspondence`: 3
+- `public_origin_no_public_url_identified`: 3
 - `public_url_identified`: 85
 
 ## Document Roles
