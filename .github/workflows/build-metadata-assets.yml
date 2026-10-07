@@ -42,6 +42,12 @@ jobs:
       - name: Verify generated assets are committed
         run: |
           git diff --exit-code -- \
+            data/refined/irpf_extracted_tables_manifest.csv \
+            data/refined/irpf_extracted_values_long.csv \
+            data/refined/extractions \
+            data/trusted/irpf_distribution_brackets_all_sources.csv \
+            data/trusted/irpf_distribution_totals_all_sources.csv \
+            data/trusted/irpf_distribution_data_dictionary.csv \
             data/trusted/irpf_distribution_source_metadata_yearly.csv \
             outputs/metadata/tables/irpf_distribution_metadata_reference_table.csv \
             outputs/metadata/tables/irpf_distribution_metadata_reference_table.pdf

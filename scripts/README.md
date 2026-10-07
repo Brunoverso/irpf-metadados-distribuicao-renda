@@ -16,6 +16,12 @@ Build only the compact metadata reference table:
 python scripts/build_metadata_reference_table.py
 ```
 
+Build the refined and trusted data package from extracted IRPF CSV tables:
+
+```powershell
+python scripts/build_data_package.py
+```
+
 Build the raw PDF source manifest from the local research workspace:
 
 ```powershell

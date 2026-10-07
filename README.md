@@ -34,11 +34,16 @@ scripts/      Reproducible scripts callable locally or by GitHub Actions.
 ## Main Files
 
 - `data/trusted/irpf_distribution_source_metadata_yearly.csv`: curated yearly metadata, one row per calendar year.
+- `data/trusted/irpf_distribution_brackets_all_sources.csv`: combined bracket-level extracted data from all usable source tables.
+- `data/trusted/irpf_distribution_totals_all_sources.csv`: combined table-level totals from all usable source tables.
+- `data/refined/extractions/`: sanitized copies of the source extraction CSVs used to build the combined data package.
+- `data/refined/irpf_extracted_tables_manifest.csv`: manifest of extraction tables included in the data package.
 - `data/raw/manifests/irpf_raw_pdf_manifest.csv`: manifest of local raw PDF sources, with checksums, sizes, relative paths, public links when identified, and redistribution notes.
 - `data/raw/pdfs/`: ignored local cache for public PDFs reconstructed from the manifest.
 - `outputs/metadata/tables/irpf_distribution_metadata_reference_table.csv`: compact table generated from the trusted metadata.
 - `outputs/metadata/tables/irpf_distribution_metadata_reference_table.pdf`: PDF version of the compact reference table.
 - `scripts/build_metadata_reference_table.py`: command-line script used to regenerate the table assets.
+- `scripts/build_data_package.py`: command-line script used to rebuild the refined and trusted data package from extracted CSV tables.
 - `scripts/fetch_public_pdfs.py`: command-line script used to fetch public source PDFs listed in the raw manifest and verify their checksums.
 
 ## Reproducibility
@@ -55,7 +60,7 @@ Regenerate the metadata table assets:
 python scripts/build_all_assets.py
 ```
 
-The same command is also run by the GitHub Actions workflow. The workflow checks whether the committed generated assets match the current trusted metadata and scripts.
+The same command is also run by the GitHub Actions workflow. The workflow checks whether the committed generated assets match the current trusted metadata, data package, and scripts.
 
 Inspect the public source PDFs that can be reconstructed from the manifest:
 
