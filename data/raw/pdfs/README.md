@@ -6,6 +6,8 @@ This folder stores raw PDF source files when their redistribution status allows 
 
 Public source PDFs with identified public URLs are stored in `public/` and tracked with Git LFS.
 
+Local source PDFs and project PDFs without an identified public URL are stored in `local/` and tracked with Git LFS.
+
 ## Files Not Versioned Here
 
 The following folders are intentionally ignored:

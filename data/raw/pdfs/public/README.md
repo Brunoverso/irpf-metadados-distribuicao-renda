@@ -15,5 +15,4 @@ Current contents:
 Not included here:
 
 - source PDFs received through private correspondence;
-- local source PDFs for which no public URL has been identified;
-- project-generated PDF reports.
+- local source PDFs for which no public URL has been identified; these are stored separately in `../local/`.
