@@ -36,9 +36,9 @@ scripts/      Reproducible scripts callable locally or by GitHub Actions.
 - `data/trusted/irpf_distribution_source_metadata_yearly.csv`: curated yearly metadata, one row per calendar year.
 - `data/trusted/irpf_distribution_brackets_all_sources.csv`: combined bracket-level extracted data from all usable source tables.
 - `data/trusted/irpf_distribution_totals_all_sources.csv`: combined table-level totals from all usable source tables.
-- `data/trusted/irpf_distribution_bracket_values_usd_2026.csv`: monetary values from the bracket table converted to nominal USD and 2026 USD when macro inputs are available.
-- `data/trusted/irpf_distribution_total_values_usd_2026.csv`: monetary values from the totals table converted to nominal USD and 2026 USD when macro inputs are available.
-- `data/refined/macro/usd_2026_conversion_factors.csv`: yearly exchange-rate and U.S. CPI factors used in the conversion.
+- `data/trusted/irpf_distribution_bracket_values_usd_2026.csv`: monetary values from the bracket table converted to nominal USD and 2026 USD when macro inputs are available, with the conversion method recorded by row.
+- `data/trusted/irpf_distribution_total_values_usd_2026.csv`: monetary values from the totals table converted to nominal USD and 2026 USD when macro inputs are available, with the conversion method recorded by row.
+- `data/refined/macro/usd_2026_conversion_factors.csv`: yearly exchange-rate and U.S. CPI factors used in the conversion, including the BCB/FRED series identifiers and method notes.
 - `data/refined/extractions/`: sanitized copies of the source extraction CSVs used to build the combined data package.
 - `data/refined/irpf_extracted_tables_manifest.csv`: manifest of extraction tables included in the data package.
 - `data/raw/macro/`: raw BCB/FRED macro series used to build the conversion factors.
