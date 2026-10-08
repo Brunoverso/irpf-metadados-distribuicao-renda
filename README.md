@@ -86,14 +86,6 @@ Files received by correspondence are redistributed only when public origin or pe
 
 The research dataset will eventually be prepared for deposition in Zenodo to obtain a DOI. The intended long-term output is a citable research dataset and, if appropriate, a data descriptor article in a journal such as Scientific Data.
 
-Before public archival, the repository should define:
-
-- a stable release version;
-- a data license;
-- the final list of authors and contributors;
-- ORCID identifiers;
-- a complete citation file;
-- a description of which raw source files can be redistributed.
 
 ## Maintainer
 
