@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202124}
+.title{font-size:28px;font-weight:700}
+.subtitle{font-size:16px;fill:#4a4f55}
+.axis{font-size:15px;fill:#30343a}
+.tick{font-size:13px;fill:#4a4f55}
+.note{font-size:13px;fill:#4a4f55}
+.bar{fill:#2f6f9f}
+.bar:hover{fill:#c85a28}
+.grid{stroke:#d8dde3;stroke-width:1}
+.frame{stroke:#7f8790;stroke-width:1;fill:none}
+</style>
+<rect x="0" y="0" width="1280" height="900" fill="#ffffff"/>
+<text x="34.0" y="44.0" class="title">IRPF 1960 - Brasil</text>
+<text x="34.0" y="72.0" class="subtitle">Brasil. Ministerio da Fazenda. Divisao de Imposto de Renda. Relatorio do ano de 1961, apresentado ao Excelentissimo Senhor Ministro da</text>
+<text x="34.0" y="92.0" class="subtitle">Fazenda Nacional pelo Diretor da...</text>
+<line x1="100" y1="590.0" x2="1238" y2="590.0" class="grid"/>
+<text x="88.0" y="594.0" class="tick" text-anchor="end">0</text>
+<line x1="100" y1="435.3" x2="1238" y2="435.3" class="grid"/>
+<text x="88.0" y="439.3" class="tick" text-anchor="end">10k</text>
+<line x1="100" y1="280.7" x2="1238" y2="280.7" class="grid"/>
+<text x="88.0" y="284.7" class="tick" text-anchor="end">20k</text>
+<line x1="100" y1="126.0" x2="1238" y2="126.0" class="grid"/>
+<text x="88.0" y="130.0" class="tick" text-anchor="end">30k</text>
+<rect x="100" y="126" width="1138" height="464" class="frame"/>
+<rect class="bar" x="102.5" y="195.2" width="66.1" height="394.8"><title>241 a 300: 25.529</title></rect>
+<text class="tick" transform="translate(135.6,610.0) rotate(58)" text-anchor="start">241 a 300</text>
+<rect class="bar" x="173.6" y="318.4" width="66.1" height="271.6"><title>301 a 350: 17.559</title></rect>
+<text class="tick" transform="translate(206.7,610.0) rotate(58)" text-anchor="start">301 a 350</text>
+<rect class="bar" x="244.8" y="381.2" width="66.1" height="208.8"><title>351 a 400: 13.503</title></rect>
+<text class="tick" transform="translate(277.8,610.0) rotate(58)" text-anchor="start">351 a 400</text>
+<rect class="bar" x="315.9" y="430.7" width="66.1" height="159.3"><title>401 a 450: 10.297</title></rect>
+<text class="tick" transform="translate(348.9,610.0) rotate(58)" text-anchor="start">401 a 450</text>
+<rect class="bar" x="387.0" y="465.6" width="66.1" height="124.4"><title>451 a 500: 8.045</title></rect>
+<text class="tick" transform="translate(420.1,610.0) rotate(58)" text-anchor="start">451 a 500</text>
+<rect class="bar" x="458.1" y="424.4" width="66.1" height="165.6"><title>501 a 600: 10.710</title></rect>
+<text class="tick" transform="translate(491.2,610.0) rotate(58)" text-anchor="start">501 a 600</text>
+<rect class="bar" x="529.2" y="482.6" width="66.1" height="107.4"><title>601 a 700: 6.943</title></rect>
+<text class="tick" transform="translate(562.3,610.0) rotate(58)" text-anchor="start">601 a 700</text>
+<rect class="bar" x="600.4" y="512.8" width="66.1" height="77.2"><title>701 a 800: 4.994</title></rect>
+<text class="tick" transform="translate(633.4,610.0) rotate(58)" text-anchor="start">701 a 800</text>
+<rect class="bar" x="671.5" y="494.0" width="66.1" height="96.0"><title>801 a 1.000: 6.205</title></rect>
+<text class="tick" transform="translate(704.6,610.0) rotate(58)" text-anchor="start">801 a 1.000</text>
+<rect class="bar" x="742.6" y="533.3" width="66.1" height="56.7"><title>1.001 a 1.200: 3.668</title></rect>
+<text class="tick" transform="translate(775.7,610.0) rotate(58)" text-anchor="start">1.001 a 1.200</text>
+<rect class="bar" x="813.8" y="529.3" width="66.1" height="60.7"><title>1.201 a 1.600: 3.925</title></rect>
+<text class="tick" transform="translate(846.8,610.0) rotate(58)" text-anchor="start">1.201 a 1.600</text>
+<rect class="bar" x="884.9" y="561.8" width="66.1" height="28.2"><title>1.601 a 2.000: 1.821</title></rect>
+<text class="tick" transform="translate(917.9,610.0) rotate(58)" text-anchor="start">1.601 a 2.000</text>
+<rect class="bar" x="956.0" y="572.4" width="66.1" height="17.6"><title>2.001 a 2.500: 1.140</title></rect>
+<text class="tick" transform="translate(989.1,610.0) rotate(58)" text-anchor="start">2.001 a 2.500</text>
+<rect class="bar" x="1027.1" y="580.3" width="66.1" height="9.7"><title>2.501 a 3.000: 626</title></rect>
+<text class="tick" transform="translate(1060.2,610.0) rotate(58)" text-anchor="start">2.501 a 3.000</text>
+<rect class="bar" x="1098.2" y="578.4" width="66.1" height="11.6"><title>3.001 a 4.500: 752</title></rect>
+<text class="tick" transform="translate(1131.3,610.0) rotate(58)" text-anchor="start">3.001 a 4.500</text>
+<rect class="bar" x="1169.4" y="582.9" width="66.1" height="7.1"><title>Acima de 4.501: 462</title></rect>
+<text class="tick" transform="translate(1202.4,610.0) rotate(58)" text-anchor="start">Acima de 4.501</text>
+<text x="640.0" y="788.0" class="axis" text-anchor="middle">Faixas de renda publicadas (Cr$ 1.000)</text>
+<text class="axis" transform="translate(28,358.0) rotate(-90)" text-anchor="middle">Contribuintes</text>
+<text x="34.0" y="828.0" class="note">Eixo X: faixas de renda publicadas pela fonte (Cr$ 1.000). Eixo Y: contribuintes. Numero de contribuintes lido como 3.925; o OCR da Internet Archive</text>
+<text x="34.0" y="845.0" class="note">le 3.025, mas 3.925 fecha o total publicado e coincide com o AEB 1962.</text>
+</svg>

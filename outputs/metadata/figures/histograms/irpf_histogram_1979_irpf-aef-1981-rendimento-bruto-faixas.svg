@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202124}
+.title{font-size:28px;font-weight:700}
+.subtitle{font-size:16px;fill:#4a4f55}
+.axis{font-size:15px;fill:#30343a}
+.tick{font-size:13px;fill:#4a4f55}
+.note{font-size:13px;fill:#4a4f55}
+.bar{fill:#2f6f9f}
+.bar:hover{fill:#c85a28}
+.grid{stroke:#d8dde3;stroke-width:1}
+.frame{stroke:#7f8790;stroke-width:1;fill:none}
+</style>
+<rect x="0" y="0" width="1280" height="900" fill="#ffffff"/>
+<text x="34.0" y="44.0" class="title">IRPF 1979 - Brasil - rendimento bruto total</text>
+<text x="34.0" y="72.0" class="subtitle">Brasil. Ministerio da Fazenda. Anuario Economico-Fiscal 1981. Brasilia: Ministerio da Fazenda, 1981.</text>
+<line x1="100" y1="590.0" x2="1238" y2="590.0" class="grid"/>
+<text x="88.0" y="594.0" class="tick" text-anchor="end">0</text>
+<line x1="100" y1="435.3" x2="1238" y2="435.3" class="grid"/>
+<text x="88.0" y="439.3" class="tick" text-anchor="end">500k</text>
+<line x1="100" y1="280.7" x2="1238" y2="280.7" class="grid"/>
+<text x="88.0" y="284.7" class="tick" text-anchor="end">1M</text>
+<line x1="100" y1="126.0" x2="1238" y2="126.0" class="grid"/>
+<text x="88.0" y="130.0" class="tick" text-anchor="end">1.5M</text>
+<rect x="100" y="126" width="1138" height="464" class="frame"/>
+<rect class="bar" x="102.5" y="223.9" width="76.3" height="366.1"><title>Ate 94.200: 1.183.568</title></rect>
+<text class="tick" transform="translate(140.6,610.0) rotate(58)" text-anchor="start">Ate 94.200</text>
+<rect class="bar" x="183.8" y="126.1" width="76.3" height="463.9"><title>94.201 a 133.400: 1.499.743</title></rect>
+<text class="tick" transform="translate(221.9,610.0) rotate(58)" text-anchor="start">94.201 a 133.400</text>
+<rect class="bar" x="265.1" y="222.0" width="76.3" height="368.0"><title>133.401 a 174.000: 1.189.708</title></rect>
+<text class="tick" transform="translate(303.2,610.0) rotate(58)" text-anchor="start">133.401 a 174.000</text>
+<rect class="bar" x="346.4" y="268.5" width="76.3" height="321.5"><title>174.001 a 227.600: 1.039.271</title></rect>
+<text class="tick" transform="translate(384.5,610.0) rotate(58)" text-anchor="start">174.001 a 227.600</text>
+<rect class="bar" x="427.6" y="355.5" width="76.3" height="234.5"><title>227.601 a 297.200: 758.157</title></rect>
+<text class="tick" transform="translate(465.8,610.0) rotate(58)" text-anchor="start">227.601 a 297.200</text>
+<rect class="bar" x="508.9" y="413.9" width="76.3" height="176.1"><title>297.201 a 391.500: 569.419</title></rect>
+<text class="tick" transform="translate(547.1,610.0) rotate(58)" text-anchor="start">297.201 a 391.500</text>
+<rect class="bar" x="590.2" y="472.1" width="76.3" height="117.9"><title>391.501 a 507.500: 381.181</title></rect>
+<text class="tick" transform="translate(628.4,610.0) rotate(58)" text-anchor="start">391.501 a 507.500</text>
+<rect class="bar" x="671.5" y="503.5" width="76.3" height="86.5"><title>507.501 a 667.000: 279.680</title></rect>
+<text class="tick" transform="translate(709.6,610.0) rotate(58)" text-anchor="start">507.501 a 667.000</text>
+<rect class="bar" x="752.8" y="534.9" width="76.3" height="55.1"><title>667.001 a 870.000: 178.045</title></rect>
+<text class="tick" transform="translate(790.9,610.0) rotate(58)" text-anchor="start">667.001 a 870.000</text>
+<rect class="bar" x="834.1" y="539.8" width="76.3" height="50.2"><title>870.001 a 1.377.500: 162.440</title></rect>
+<text class="tick" transform="translate(872.2,610.0) rotate(58)" text-anchor="start">870.001 a 1.377.500</text>
+<rect class="bar" x="915.4" y="575.4" width="76.3" height="14.6"><title>1.377.501 a 2.030.000: 47.294</title></rect>
+<text class="tick" transform="translate(953.5,610.0) rotate(58)" text-anchor="start">1.377.501 a 2.030.000</text>
+<rect class="bar" x="996.6" y="586.1" width="76.3" height="3.9"><title>2.030.001 a 2.755.000: 12.480</title></rect>
+<text class="tick" transform="translate(1034.8,610.0) rotate(58)" text-anchor="start">2.030.001 a 2.755.000</text>
+<rect class="bar" x="1077.9" y="587.4" width="76.3" height="2.6"><title>2.755.001 a 8.265.000: 8.346</title></rect>
+<text class="tick" transform="translate(1116.1,610.0) rotate(58)" text-anchor="start">2.755.001 a 8.265.000</text>
+<rect class="bar" x="1159.2" y="589.8" width="76.3" height="0.2"><title>Acima de 8.265.000: 654</title></rect>
+<text class="tick" transform="translate(1197.4,610.0) rotate(58)" text-anchor="start">Acima de 8.265.000</text>
+<text x="640.0" y="788.0" class="axis" text-anchor="middle">Faixas de renda publicadas (Cr$ 1,00)</text>
+<text class="axis" transform="translate(28,358.0) rotate(-90)" text-anchor="middle">Declarantes</text>
+<text x="34.0" y="828.0" class="note">Eixo X: faixas de renda publicadas pela fonte (Cr$ 1,00). Eixo Y: declarantes. O AEF 1981 cobre ano-base 1979/exercicio 1980, mas nao traz a matriz</text>
+<text x="34.0" y="845.0" class="note">nacional detalhada de renda liquida por classes de renda liquida que foi usada nos AEF 1976-1979. As tabelas 1 e 2 classificam os declarantes por</text>
+<text x="34.0" y="862.0" class="note">classes de rendimento bruto total; a tabela 2 decompoe a renda...</text>
+</svg>

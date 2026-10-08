@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202124}
+.title{font-size:28px;font-weight:700}
+.subtitle{font-size:16px;fill:#4a4f55}
+.axis{font-size:15px;fill:#30343a}
+.tick{font-size:13px;fill:#4a4f55}
+.note{font-size:13px;fill:#4a4f55}
+.bar{fill:#2f6f9f}
+.bar:hover{fill:#c85a28}
+.grid{stroke:#d8dde3;stroke-width:1}
+.frame{stroke:#7f8790;stroke-width:1;fill:none}
+</style>
+<rect x="0" y="0" width="1280" height="900" fill="#ffffff"/>
+<text x="34.0" y="44.0" class="title">IRPF 2006 - Brasil - renda bruta total anual (RTOT = rendimentos tributaveis + tributacao exclusiva + isentos/nao tributaveis)</text>
+<text x="34.0" y="72.0" class="subtitle">Castro, F. A. de. Imposto de renda da pessoa fisica: comparacoes internacionais, medidas de progressividade e redistribuicao.</text>
+<text x="34.0" y="92.0" class="subtitle">Dissertacao (Mestrado em Economia), Unive...</text>
+<line x1="100" y1="590.0" x2="1238" y2="590.0" class="grid"/>
+<text x="88.0" y="594.0" class="tick" text-anchor="end">0</text>
+<line x1="100" y1="497.2" x2="1238" y2="497.2" class="grid"/>
+<text x="88.0" y="501.2" class="tick" text-anchor="end">500k</text>
+<line x1="100" y1="404.4" x2="1238" y2="404.4" class="grid"/>
+<text x="88.0" y="408.4" class="tick" text-anchor="end">1M</text>
+<line x1="100" y1="311.6" x2="1238" y2="311.6" class="grid"/>
+<text x="88.0" y="315.6" class="tick" text-anchor="end">1.5M</text>
+<line x1="100" y1="218.8" x2="1238" y2="218.8" class="grid"/>
+<text x="88.0" y="222.8" class="tick" text-anchor="end">2M</text>
+<line x1="100" y1="126.0" x2="1238" y2="126.0" class="grid"/>
+<text x="88.0" y="130.0" class="tick" text-anchor="end">2.5M</text>
+<rect x="100" y="126" width="1138" height="464" class="frame"/>
+<rect class="bar" x="102.5" y="143.8" width="108.8" height="446.2"><title>Ate R$ 2.100,00: 2.403.856</title></rect>
+<text class="tick" transform="translate(156.9,610.0) rotate(58)" text-anchor="start">Ate R$ 2.100,00</text>
+<rect class="bar" x="216.3" y="143.8" width="108.8" height="446.2"><title>De 2.100,01 a R$ 9.450,00: 2.404.152</title></rect>
+<text class="tick" transform="translate(270.7,610.0) rotate(58)" text-anchor="start">De 2.100,01 a R$ 9.450,00</text>
+<rect class="bar" x="330.1" y="142.3" width="108.8" height="447.7"><title>De 9.450,01 a 14.398,00: 2.412.025</title></rect>
+<text class="tick" transform="translate(384.5,610.0) rotate(58)" text-anchor="start">De 9.450,01 a 14.398,00</text>
+<rect class="bar" x="443.9" y="142.6" width="108.8" height="447.4"><title>De 14.398,01 a 16.850,00: 2.410.504</title></rect>
+<text class="tick" transform="translate(498.3,610.0) rotate(58)" text-anchor="start">De 14.398,01 a 16.850,00</text>
+<rect class="bar" x="557.7" y="142.2" width="108.8" height="447.8"><title>De 16.850,01 a 18.690,00: 2.412.887</title></rect>
+<text class="tick" transform="translate(612.1,610.0) rotate(58)" text-anchor="start">De 16.850,01 a 18.690,00</text>
+<rect class="bar" x="671.5" y="139.4" width="108.8" height="450.6"><title>De 18.690,01 a 23.000,00: 2.427.886</title></rect>
+<text class="tick" transform="translate(725.9,610.0) rotate(58)" text-anchor="start">De 18.690,01 a 23.000,00</text>
+<rect class="bar" x="785.3" y="141.0" width="108.8" height="449.0"><title>De 23.000,01 a 29.700,00: 2.418.915</title></rect>
+<text class="tick" transform="translate(839.7,610.0) rotate(58)" text-anchor="start">De 23.000,01 a 29.700,00</text>
+<rect class="bar" x="899.1" y="139.9" width="108.8" height="450.1"><title>De 29.700,01 a 41.700,00: 2.425.206</title></rect>
+<text class="tick" transform="translate(953.5,610.0) rotate(58)" text-anchor="start">De 29.700,01 a 41.700,00</text>
+<rect class="bar" x="1012.9" y="141.8" width="108.8" height="448.2"><title>De 41.000,01 a 71.000,00: 2.414.955</title></rect>
+<text class="tick" transform="translate(1067.3,610.0) rotate(58)" text-anchor="start">De 41.000,01 a 71.000,00</text>
+<rect class="bar" x="1126.7" y="139.8" width="108.8" height="450.2"><title>Acima 71.000,00: 2.425.867</title></rect>
+<text class="tick" transform="translate(1181.1,610.0) rotate(58)" text-anchor="start">Acima 71.000,00</text>
+<text x="640.0" y="788.0" class="axis" text-anchor="middle">Faixas de renda publicadas (R$ 1,00 anuais)</text>
+<text class="axis" transform="translate(28,358.0) rotate(-90)" text-anchor="middle">Declaracoes</text>
+<text x="34.0" y="828.0" class="note">Eixo X: faixas de renda publicadas pela fonte (R$ 1,00 anuais). Eixo Y: declaracoes. Fonte mapeada por Pedro Herculano para o ano-calendario 2006 como</text>
+<text x="34.0" y="845.0" class="note">Castro (2014), Medeiros, Souza e Castro (2015a), com abrangencia Brasil, ordenamento por RTOT e rendas reportadas RBT, RNT e RTOT. A Tabela 46 de</text>
+<text x="34.0" y="862.0" class="note">Castro (2014) traz a distribuicao da renda bruta para o ano...</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202124}
+.title{font-size:28px;font-weight:700}
+.subtitle{font-size:16px;fill:#4a4f55}
+.axis{font-size:15px;fill:#30343a}
+.tick{font-size:13px;fill:#4a4f55}
+.note{font-size:13px;fill:#4a4f55}
+.bar{fill:#2f6f9f}
+.bar:hover{fill:#c85a28}
+.grid{stroke:#d8dde3;stroke-width:1}
+.frame{stroke:#7f8790;stroke-width:1;fill:none}
+</style>
+<rect x="0" y="0" width="1280" height="900" fill="#ffffff"/>
+<text x="34.0" y="44.0" class="title">IRPF 1975 - Brasil</text>
+<text x="34.0" y="72.0" class="subtitle">Brasil. Ministerio da Fazenda. Anuario Economico-Fiscal 1977. Brasilia: Ministerio da Fazenda, 1977.</text>
+<line x1="100" y1="590.0" x2="1238" y2="590.0" class="grid"/>
+<text x="88.0" y="594.0" class="tick" text-anchor="end">0</text>
+<line x1="100" y1="435.3" x2="1238" y2="435.3" class="grid"/>
+<text x="88.0" y="439.3" class="tick" text-anchor="end">1M</text>
+<line x1="100" y1="280.7" x2="1238" y2="280.7" class="grid"/>
+<text x="88.0" y="284.7" class="tick" text-anchor="end">2M</text>
+<line x1="100" y1="126.0" x2="1238" y2="126.0" class="grid"/>
+<text x="88.0" y="130.0" class="tick" text-anchor="end">3M</text>
+<rect x="100" y="126" width="1138" height="464" class="frame"/>
+<rect class="bar" x="102.5" y="127.7" width="108.8" height="462.3"><title>Ate 26.000: 2.988.896</title></rect>
+<text class="tick" transform="translate(156.9,610.0) rotate(58)" text-anchor="start">Ate 26.000</text>
+<rect class="bar" x="216.3" y="484.9" width="108.8" height="105.1"><title>26.001 a 36.500: 679.638</title></rect>
+<text class="tick" transform="translate(270.7,610.0) rotate(58)" text-anchor="start">26.001 a 36.500</text>
+<rect class="bar" x="330.1" y="508.7" width="108.8" height="81.3"><title>36.501 a 52.500: 525.517</title></rect>
+<text class="tick" transform="translate(384.5,610.0) rotate(58)" text-anchor="start">36.501 a 52.500</text>
+<rect class="bar" x="443.9" y="533.8" width="108.8" height="56.2"><title>52.501 a 77.000: 363.442</title></rect>
+<text class="tick" transform="translate(498.3,610.0) rotate(58)" text-anchor="start">52.501 a 77.000</text>
+<rect class="bar" x="557.7" y="555.8" width="108.8" height="34.2"><title>77.001 a 112.000: 221.226</title></rect>
+<text class="tick" transform="translate(612.1,610.0) rotate(58)" text-anchor="start">77.001 a 112.000</text>
+<rect class="bar" x="671.5" y="569.7" width="108.8" height="20.3"><title>112.001 a 163.500: 131.572</title></rect>
+<text class="tick" transform="translate(725.9,610.0) rotate(58)" text-anchor="start">112.001 a 163.500</text>
+<rect class="bar" x="785.3" y="579.7" width="108.8" height="10.3"><title>163.501 a 238.000: 66.295</title></rect>
+<text class="tick" transform="translate(839.7,610.0) rotate(58)" text-anchor="start">163.501 a 238.000</text>
+<rect class="bar" x="899.1" y="584.1" width="108.8" height="5.9"><title>238.001 a 500.000: 38.024</title></rect>
+<text class="tick" transform="translate(953.5,610.0) rotate(58)" text-anchor="start">238.001 a 500.000</text>
+<rect class="bar" x="1012.9" y="589.0" width="108.8" height="1.0"><title>500.001 a 2.317.500: 6.579</title></rect>
+<text class="tick" transform="translate(1067.3,610.0) rotate(58)" text-anchor="start">500.001 a 2.317.500</text>
+<rect class="bar" x="1126.7" y="590.0" width="108.8" height="0.0"><title>Acima de 2.317.500: 295</title></rect>
+<text class="tick" transform="translate(1181.1,610.0) rotate(58)" text-anchor="start">Acima de 2.317.500</text>
+<text x="640.0" y="788.0" class="axis" text-anchor="middle">Faixas de renda publicadas (Cr$ 1,00)</text>
+<text class="axis" transform="translate(28,358.0) rotate(-90)" text-anchor="middle">Declarantes</text>
+<text x="34.0" y="828.0" class="note">Eixo X: faixas de renda publicadas pela fonte (Cr$ 1,00). Eixo Y: declarantes. O AEF 1977 passa a separar declaracoes apresentadas no Modelo Completo</text>
+<text x="34.0" y="845.0" class="note">(MCT) e no Modelo Simplificado (MSO). Como os quadros 8.2.1.125 e 8.2.1.127 usam as mesmas classes de renda liquida, a tabela principal soma MCT e MSO</text>
+<text x="34.0" y="862.0" class="note">por faixa. A tabela de origem preserva os valores de cad...</text>
+</svg>

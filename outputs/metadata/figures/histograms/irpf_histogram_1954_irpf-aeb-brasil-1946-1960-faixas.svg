@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202124}
+.title{font-size:28px;font-weight:700}
+.subtitle{font-size:16px;fill:#4a4f55}
+.axis{font-size:15px;fill:#30343a}
+.tick{font-size:13px;fill:#4a4f55}
+.note{font-size:13px;fill:#4a4f55}
+.bar{fill:#2f6f9f}
+.bar:hover{fill:#c85a28}
+.grid{stroke:#d8dde3;stroke-width:1}
+.frame{stroke:#7f8790;stroke-width:1;fill:none}
+</style>
+<rect x="0" y="0" width="1280" height="900" fill="#ffffff"/>
+<text x="34.0" y="44.0" class="title">IRPF 1954 - Brasil - renda liquida</text>
+<text x="34.0" y="72.0" class="subtitle">IBGE, Anuario Estatistico do Brasil 1956, p. 404, Tabela 2a</text>
+<line x1="100" y1="590.0" x2="1238" y2="590.0" class="grid"/>
+<text x="88.0" y="594.0" class="tick" text-anchor="end">0</text>
+<line x1="100" y1="497.2" x2="1238" y2="497.2" class="grid"/>
+<text x="88.0" y="501.2" class="tick" text-anchor="end">10k</text>
+<line x1="100" y1="404.4" x2="1238" y2="404.4" class="grid"/>
+<text x="88.0" y="408.4" class="tick" text-anchor="end">20k</text>
+<line x1="100" y1="311.6" x2="1238" y2="311.6" class="grid"/>
+<text x="88.0" y="315.6" class="tick" text-anchor="end">30k</text>
+<line x1="100" y1="218.8" x2="1238" y2="218.8" class="grid"/>
+<text x="88.0" y="222.8" class="tick" text-anchor="end">40k</text>
+<line x1="100" y1="126.0" x2="1238" y2="126.0" class="grid"/>
+<text x="88.0" y="130.0" class="tick" text-anchor="end">50k</text>
+<rect x="100" y="126" width="1138" height="464" class="frame"/>
+<rect class="bar" x="102.5" y="441.6" width="76.3" height="148.4"><title>De mais de 50 a 60: 15.996</title></rect>
+<text class="tick" transform="translate(140.6,610.0) rotate(58)" text-anchor="start">De mais de 50 a 60</text>
+<rect class="bar" x="183.8" y="151.9" width="76.3" height="438.1"><title>De mais de 60 a 90: 47.209</title></rect>
+<text class="tick" transform="translate(221.9,610.0) rotate(58)" text-anchor="start">De mais de 60 a 90</text>
+<rect class="bar" x="265.1" y="272.1" width="76.3" height="317.9"><title>De mais de 90 a 120: 34.254</title></rect>
+<text class="tick" transform="translate(303.2,610.0) rotate(58)" text-anchor="start">De mais de 90 a 120</text>
+<rect class="bar" x="346.4" y="377.1" width="76.3" height="212.9"><title>De mais de 120 a 150: 22.941</title></rect>
+<text class="tick" transform="translate(384.5,610.0) rotate(58)" text-anchor="start">De mais de 120 a 150</text>
+<rect class="bar" x="427.6" y="389.1" width="76.3" height="200.9"><title>De mais de 150 a 200: 21.654</title></rect>
+<text class="tick" transform="translate(465.8,610.0) rotate(58)" text-anchor="start">De mais de 150 a 200</text>
+<rect class="bar" x="508.9" y="392.4" width="76.3" height="197.6"><title>De mais de 200 a 300: 21.290</title></rect>
+<text class="tick" transform="translate(547.1,610.0) rotate(58)" text-anchor="start">De mais de 200 a 300</text>
+<rect class="bar" x="590.2" y="496.0" width="76.3" height="94.0"><title>De mais de 300 a 400: 10.130</title></rect>
+<text class="tick" transform="translate(628.4,610.0) rotate(58)" text-anchor="start">De mais de 300 a 400</text>
+<rect class="bar" x="671.5" y="536.4" width="76.3" height="53.6"><title>De mais de 400 a 500: 5.780</title></rect>
+<text class="tick" transform="translate(709.6,610.0) rotate(58)" text-anchor="start">De mais de 400 a 500</text>
+<rect class="bar" x="752.8" y="557.5" width="76.3" height="32.5"><title>De mais de 500 a 600: 3.506</title></rect>
+<text class="tick" transform="translate(790.9,610.0) rotate(58)" text-anchor="start">De mais de 500 a 600</text>
+<rect class="bar" x="834.1" y="567.3" width="76.3" height="22.7"><title>De mais de 600 a 700: 2.444</title></rect>
+<text class="tick" transform="translate(872.2,610.0) rotate(58)" text-anchor="start">De mais de 600 a 700</text>
+<rect class="bar" x="915.4" y="556.4" width="76.3" height="33.6"><title>De mais de 700 a 1000: 3.626</title></rect>
+<text class="tick" transform="translate(953.5,610.0) rotate(58)" text-anchor="start">De mais de 700 a 1000</text>
+<rect class="bar" x="996.6" y="564.7" width="76.3" height="25.3"><title>De mais de 1000 a 2000: 2.722</title></rect>
+<text class="tick" transform="translate(1034.8,610.0) rotate(58)" text-anchor="start">De mais de 1000 a 2000</text>
+<rect class="bar" x="1077.9" y="585.7" width="76.3" height="4.3"><title>De mais de 2000 a 3000: 463</title></rect>
+<text class="tick" transform="translate(1116.1,610.0) rotate(58)" text-anchor="start">De mais de 2000 a 3000</text>
+<rect class="bar" x="1159.2" y="587.8" width="76.3" height="2.2"><title>Mais de 3000: 242</title></rect>
+<text class="tick" transform="translate(1197.4,610.0) rotate(58)" text-anchor="start">Mais de 3000</text>
+<text x="640.0" y="788.0" class="axis" text-anchor="middle">Faixas de renda publicadas (unidade publicada pela fonte)</text>
+<text class="axis" transform="translate(28,358.0) rotate(-90)" text-anchor="middle">Pessoas fisicas notificadas</text>
+<text x="34.0" y="828.0" class="note">Eixo X: faixas de renda publicadas pela fonte (unidade publicada pela fonte). Eixo Y: pessoas fisicas notificadas.</text>
+</svg>

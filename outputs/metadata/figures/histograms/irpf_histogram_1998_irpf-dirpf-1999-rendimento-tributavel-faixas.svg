@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202124}
+.title{font-size:28px;font-weight:700}
+.subtitle{font-size:16px;fill:#4a4f55}
+.axis{font-size:15px;fill:#30343a}
+.tick{font-size:13px;fill:#4a4f55}
+.note{font-size:13px;fill:#4a4f55}
+.bar{fill:#2f6f9f}
+.bar:hover{fill:#c85a28}
+.grid{stroke:#d8dde3;stroke-width:1}
+.frame{stroke:#7f8790;stroke-width:1;fill:none}
+</style>
+<rect x="0" y="0" width="1280" height="900" fill="#ffffff"/>
+<text x="34.0" y="44.0" class="title">IRPF 1998 - Brasil - rendimento tributavel anual</text>
+<text x="34.0" y="72.0" class="subtitle">Brasil. Ministerio da Fazenda. Secretaria da Receita Federal. Coordenacao-Geral de Estudos Economico-Tributarios. Analise Economica da</text>
+<text x="34.0" y="92.0" class="subtitle">DIRPF 1999. Texto para Discussao...</text>
+<line x1="100" y1="590.0" x2="1238" y2="590.0" class="grid"/>
+<text x="88.0" y="594.0" class="tick" text-anchor="end">0</text>
+<line x1="100" y1="497.2" x2="1238" y2="497.2" class="grid"/>
+<text x="88.0" y="501.2" class="tick" text-anchor="end">1M</text>
+<line x1="100" y1="404.4" x2="1238" y2="404.4" class="grid"/>
+<text x="88.0" y="408.4" class="tick" text-anchor="end">2M</text>
+<line x1="100" y1="311.6" x2="1238" y2="311.6" class="grid"/>
+<text x="88.0" y="315.6" class="tick" text-anchor="end">3M</text>
+<line x1="100" y1="218.8" x2="1238" y2="218.8" class="grid"/>
+<text x="88.0" y="222.8" class="tick" text-anchor="end">4M</text>
+<line x1="100" y1="126.0" x2="1238" y2="126.0" class="grid"/>
+<text x="88.0" y="130.0" class="tick" text-anchor="end">5M</text>
+<rect x="100" y="126" width="1138" height="464" class="frame"/>
+<rect class="bar" x="102.5" y="146.7" width="98.5" height="443.3"><title>0 a 12: 4.777.068</title></rect>
+<text class="tick" transform="translate(151.7,610.0) rotate(58)" text-anchor="start">0 a 12</text>
+<rect class="bar" x="206.0" y="343.8" width="98.5" height="246.2"><title>12 a 18: 2.652.812</title></rect>
+<text class="tick" transform="translate(255.2,610.0) rotate(58)" text-anchor="start">12 a 18</text>
+<rect class="bar" x="309.4" y="484.4" width="98.5" height="105.6"><title>18 a 24: 1.138.450</title></rect>
+<text class="tick" transform="translate(358.6,610.0) rotate(58)" text-anchor="start">18 a 24</text>
+<rect class="bar" x="412.9" y="525.8" width="98.5" height="64.2"><title>24 a 30: 691.647</title></rect>
+<text class="tick" transform="translate(462.1,610.0) rotate(58)" text-anchor="start">24 a 30</text>
+<rect class="bar" x="516.3" y="548.7" width="98.5" height="41.3"><title>30 a 36: 444.685</title></rect>
+<text class="tick" transform="translate(565.5,610.0) rotate(58)" text-anchor="start">30 a 36</text>
+<rect class="bar" x="619.8" y="540.8" width="98.5" height="49.2"><title>36 a 48: 529.960</title></rect>
+<text class="tick" transform="translate(669.0,610.0) rotate(58)" text-anchor="start">36 a 48</text>
+<rect class="bar" x="723.2" y="562.7" width="98.5" height="27.3"><title>48 a 60: 294.578</title></rect>
+<text class="tick" transform="translate(772.5,610.0) rotate(58)" text-anchor="start">48 a 60</text>
+<rect class="bar" x="826.7" y="573.8" width="98.5" height="16.2"><title>60 a 72: 174.606</title></rect>
+<text class="tick" transform="translate(875.9,610.0) rotate(58)" text-anchor="start">60 a 72</text>
+<rect class="bar" x="930.1" y="574.2" width="98.5" height="15.8"><title>72 a 96: 170.496</title></rect>
+<text class="tick" transform="translate(979.4,610.0) rotate(58)" text-anchor="start">72 a 96</text>
+<rect class="bar" x="1033.6" y="582.7" width="98.5" height="7.3"><title>96 a 120: 78.517</title></rect>
+<text class="tick" transform="translate(1082.8,610.0) rotate(58)" text-anchor="start">96 a 120</text>
+<rect class="bar" x="1137.0" y="580.4" width="98.5" height="9.6"><title>Mais de 120: 103.219</title></rect>
+<text class="tick" transform="translate(1186.3,610.0) rotate(58)" text-anchor="start">Mais de 120</text>
+<text x="640.0" y="788.0" class="axis" text-anchor="middle">Faixas de renda publicadas (R$ 1,00; fonte rotula faixas em R$ 1.000 anuais)</text>
+<text class="axis" transform="translate(28,358.0) rotate(-90)" text-anchor="middle">Declarantes</text>
+<text x="34.0" y="828.0" class="note">Eixo X: faixas de renda publicadas pela fonte (R$ 1,00; fonte rotula faixas em R$ 1.000 anuais). Eixo Y: declarantes. Fonte baixada do Wayback</text>
+<text x="34.0" y="845.0" class="note">Machine, pois a URL original da Receita retornou 404 em 2026-06-04. A tabela por faixa usa a classificacao de renda anual tributavel em R$ mil. O</text>
+<text x="34.0" y="862.0" class="note">numero de declarantes por faixa vem da Tabela II-A/Quadro 05; o rend...</text>
+</svg>

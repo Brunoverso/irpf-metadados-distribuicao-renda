@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202124}
+.title{font-size:28px;font-weight:700}
+.subtitle{font-size:16px;fill:#4a4f55}
+.axis{font-size:15px;fill:#30343a}
+.tick{font-size:13px;fill:#4a4f55}
+.note{font-size:13px;fill:#4a4f55}
+.bar{fill:#2f6f9f}
+.bar:hover{fill:#c85a28}
+.grid{stroke:#d8dde3;stroke-width:1}
+.frame{stroke:#7f8790;stroke-width:1;fill:none}
+</style>
+<rect x="0" y="0" width="1280" height="900" fill="#ffffff"/>
+<text x="34.0" y="44.0" class="title">IRPF 1997 - Brasil - renda tributavel anual</text>
+<text x="34.0" y="72.0" class="subtitle">Brasil. Ministerio da Fazenda. Secretaria da Receita Federal. Tributacao da Renda no Brasil Pos-Real. Brasilia: Dupligrafica, 2001.</text>
+<line x1="100" y1="590.0" x2="1238" y2="590.0" class="grid"/>
+<text x="88.0" y="594.0" class="tick" text-anchor="end">0</text>
+<line x1="100" y1="497.2" x2="1238" y2="497.2" class="grid"/>
+<text x="88.0" y="501.2" class="tick" text-anchor="end">1M</text>
+<line x1="100" y1="404.4" x2="1238" y2="404.4" class="grid"/>
+<text x="88.0" y="408.4" class="tick" text-anchor="end">2M</text>
+<line x1="100" y1="311.6" x2="1238" y2="311.6" class="grid"/>
+<text x="88.0" y="315.6" class="tick" text-anchor="end">3M</text>
+<line x1="100" y1="218.8" x2="1238" y2="218.8" class="grid"/>
+<text x="88.0" y="222.8" class="tick" text-anchor="end">4M</text>
+<line x1="100" y1="126.0" x2="1238" y2="126.0" class="grid"/>
+<text x="88.0" y="130.0" class="tick" text-anchor="end">5M</text>
+<rect x="100" y="126" width="1138" height="464" class="frame"/>
+<rect class="bar" x="102.5" y="159.9" width="98.5" height="430.1"><title>0 a 12: 4.634.932</title></rect>
+<text class="tick" transform="translate(151.7,610.0) rotate(58)" text-anchor="start">0 a 12</text>
+<rect class="bar" x="206.0" y="365.6" width="98.5" height="224.4"><title>12 a 18: 2.417.918</title></rect>
+<text class="tick" transform="translate(255.2,610.0) rotate(58)" text-anchor="start">12 a 18</text>
+<rect class="bar" x="309.4" y="487.8" width="98.5" height="102.2"><title>18 a 24: 1.101.018</title></rect>
+<text class="tick" transform="translate(358.6,610.0) rotate(58)" text-anchor="start">18 a 24</text>
+<rect class="bar" x="412.9" y="528.9" width="98.5" height="61.1"><title>24 a 30: 658.598</title></rect>
+<text class="tick" transform="translate(462.1,610.0) rotate(58)" text-anchor="start">24 a 30</text>
+<rect class="bar" x="516.3" y="551.7" width="98.5" height="38.3"><title>30 a 36: 413.172</title></rect>
+<text class="tick" transform="translate(565.5,610.0) rotate(58)" text-anchor="start">30 a 36</text>
+<rect class="bar" x="619.8" y="544.3" width="98.5" height="45.7"><title>36 a 48: 492.834</title></rect>
+<text class="tick" transform="translate(669.0,610.0) rotate(58)" text-anchor="start">36 a 48</text>
+<rect class="bar" x="723.2" y="565.7" width="98.5" height="24.3"><title>48 a 60: 261.709</title></rect>
+<text class="tick" transform="translate(772.5,610.0) rotate(58)" text-anchor="start">48 a 60</text>
+<rect class="bar" x="826.7" y="576.1" width="98.5" height="13.9"><title>60 a 72: 149.791</title></rect>
+<text class="tick" transform="translate(875.9,610.0) rotate(58)" text-anchor="start">60 a 72</text>
+<rect class="bar" x="930.1" y="575.7" width="98.5" height="14.3"><title>72 a 96: 154.140</title></rect>
+<text class="tick" transform="translate(979.4,610.0) rotate(58)" text-anchor="start">72 a 96</text>
+<rect class="bar" x="1033.6" y="583.4" width="98.5" height="6.6"><title>96 a 120: 70.929</title></rect>
+<text class="tick" transform="translate(1082.8,610.0) rotate(58)" text-anchor="start">96 a 120</text>
+<rect class="bar" x="1137.0" y="581.6" width="98.5" height="8.4"><title>Mais de 120: 91.042</title></rect>
+<text class="tick" transform="translate(1186.3,610.0) rotate(58)" text-anchor="start">Mais de 120</text>
+<text x="640.0" y="788.0" class="axis" text-anchor="middle">Faixas de renda publicadas (R$ 1,00; fonte rotula faixas em R$ 1.000 anuais)</text>
+<text class="axis" transform="translate(28,358.0) rotate(-90)" text-anchor="middle">Declarantes</text>
+<text x="34.0" y="828.0" class="note">Eixo X: faixas de renda publicadas pela fonte (R$ 1,00; fonte rotula faixas em R$ 1.000 anuais). Eixo Y: declarantes. Fonte recebida por email de</text>
+<text x="34.0" y="845.0" class="note">Pedro Herculano G. F. de Souza em 2026-09-24. O arquivo e um recorte digitalizado; a transcricao foi conferida visualmente contra a imagem da tabela.</text>
+<text x="34.0" y="862.0" class="note">A tabela usa faixas de renda tributavel anual e nao distribui...</text>
+</svg>

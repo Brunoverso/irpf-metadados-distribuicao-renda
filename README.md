@@ -47,8 +47,10 @@ scripts/      Reproducible scripts callable locally or by GitHub Actions.
 - `data/raw/pdfs/local/`: local raw PDFs and project PDFs without an identified public URL, tracked with Git LFS.
 - `outputs/metadata/tables/irpf_distribution_metadata_reference_table.csv`: compact table generated from the trusted metadata.
 - `outputs/metadata/tables/irpf_distribution_metadata_reference_table.pdf`: PDF version of the compact reference table.
+- `outputs/metadata/figures/histograms/`: generated histogram assets for direct-frequency IRPF bracket series.
 - `scripts/build_metadata_reference_table.py`: command-line script used to regenerate the table assets.
 - `scripts/build_data_package.py`: command-line script used to rebuild the refined and trusted data package from extracted CSV tables.
+- `scripts/build_irpf_histograms.py`: command-line script used to generate histogram figures and the histogram manifest.
 - `scripts/fetch_public_pdfs.py`: command-line script used to fetch public source PDFs listed in the raw manifest and verify their checksums.
 
 ## Reproducibility

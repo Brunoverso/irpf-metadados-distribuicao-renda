@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202124}
+.title{font-size:28px;font-weight:700}
+.subtitle{font-size:16px;fill:#4a4f55}
+.axis{font-size:15px;fill:#30343a}
+.tick{font-size:13px;fill:#4a4f55}
+.note{font-size:13px;fill:#4a4f55}
+.bar{fill:#2f6f9f}
+.bar:hover{fill:#c85a28}
+.grid{stroke:#d8dde3;stroke-width:1}
+.frame{stroke:#7f8790;stroke-width:1;fill:none}
+</style>
+<rect x="0" y="0" width="1280" height="900" fill="#ffffff"/>
+<text x="34.0" y="44.0" class="title">IRPF 1983 - Brasil - rendimento bruto total</text>
+<text x="34.0" y="72.0" class="subtitle">Brasil. Ministerio da Fazenda. Secretaria da Receita Federal. Coordenacao do Sistema de Informacoes Economico-Fiscais. Imposto de</text>
+<text x="34.0" y="92.0" class="subtitle">Renda Pessoa Fisica 1984. Brasilia: M...</text>
+<line x1="100" y1="590.0" x2="1238" y2="590.0" class="grid"/>
+<text x="88.0" y="594.0" class="tick" text-anchor="end">0</text>
+<line x1="100" y1="435.3" x2="1238" y2="435.3" class="grid"/>
+<text x="88.0" y="439.3" class="tick" text-anchor="end">500k</text>
+<line x1="100" y1="280.7" x2="1238" y2="280.7" class="grid"/>
+<text x="88.0" y="284.7" class="tick" text-anchor="end">1M</text>
+<line x1="100" y1="126.0" x2="1238" y2="126.0" class="grid"/>
+<text x="88.0" y="130.0" class="tick" text-anchor="end">1.5M</text>
+<rect x="100" y="126" width="1138" height="464" class="frame"/>
+<rect class="bar" x="102.5" y="445.1" width="76.3" height="144.9"><title>Ate 1.084.000: 468.430</title></rect>
+<text class="tick" transform="translate(140.6,610.0) rotate(58)" text-anchor="start">Ate 1.084.000</text>
+<rect class="bar" x="183.8" y="436.0" width="76.3" height="154.0"><title>1.084.001 a 1.536.000: 497.938</title></rect>
+<text class="tick" transform="translate(221.9,610.0) rotate(58)" text-anchor="start">1.084.001 a 1.536.000</text>
+<rect class="bar" x="265.1" y="311.5" width="76.3" height="278.5"><title>1.536.001 a 2.000.000: 900.326</title></rect>
+<text class="tick" transform="translate(303.2,610.0) rotate(58)" text-anchor="start">1.536.001 a 2.000.000</text>
+<rect class="bar" x="346.4" y="220.1" width="76.3" height="369.9"><title>2.000.001 a 2.616.000: 1.195.750</title></rect>
+<text class="tick" transform="translate(384.5,610.0) rotate(58)" text-anchor="start">2.000.001 a 2.616.000</text>
+<rect class="bar" x="427.6" y="238.8" width="76.3" height="351.2"><title>2.616.001 a 3.416.000: 1.135.427</title></rect>
+<text class="tick" transform="translate(465.8,610.0) rotate(58)" text-anchor="start">2.616.001 a 3.416.000</text>
+<rect class="bar" x="508.9" y="322.8" width="76.3" height="267.2"><title>3.416.001 a 4.500.000: 863.817</title></rect>
+<text class="tick" transform="translate(547.1,610.0) rotate(58)" text-anchor="start">3.416.001 a 4.500.000</text>
+<rect class="bar" x="590.2" y="404.8" width="76.3" height="185.2"><title>4.500.001 a 5.834.000: 598.749</title></rect>
+<text class="tick" transform="translate(628.4,610.0) rotate(58)" text-anchor="start">4.500.001 a 5.834.000</text>
+<rect class="bar" x="671.5" y="446.9" width="76.3" height="143.1"><title>5.834.001 a 7.664.000: 462.754</title></rect>
+<text class="tick" transform="translate(709.6,610.0) rotate(58)" text-anchor="start">5.834.001 a 7.664.000</text>
+<rect class="bar" x="752.8" y="493.5" width="76.3" height="96.5"><title>7.664.001 a 10.000.000: 311.967</title></rect>
+<text class="tick" transform="translate(790.9,610.0) rotate(58)" text-anchor="start">7.664.001 a 10.000.000</text>
+<rect class="bar" x="834.1" y="498.9" width="76.3" height="91.1"><title>10.000.001 a 15.822.000: 294.389</title></rect>
+<text class="tick" transform="translate(872.2,610.0) rotate(58)" text-anchor="start">10.000.001 a 15.822.000</text>
+<rect class="bar" x="915.4" y="564.3" width="76.3" height="25.7"><title>15.822.001 a 23.314.000: 82.950</title></rect>
+<text class="tick" transform="translate(953.5,610.0) rotate(58)" text-anchor="start">15.822.001 a 23.314.000</text>
+<rect class="bar" x="996.6" y="582.1" width="76.3" height="7.9"><title>23.314.001 a 34.354.000: 25.478</title></rect>
+<text class="tick" transform="translate(1034.8,610.0) rotate(58)" text-anchor="start">23.314.001 a 34.354.000</text>
+<rect class="bar" x="1077.9" y="585.8" width="76.3" height="4.2"><title>34.354.001 a 103.062.000: 13.451</title></rect>
+<text class="tick" transform="translate(1116.1,610.0) rotate(58)" text-anchor="start">34.354.001 a 103.062.000</text>
+<rect class="bar" x="1159.2" y="589.7" width="76.3" height="0.3"><title>Acima de 103.062.000: 1.050</title></rect>
+<text class="tick" transform="translate(1197.4,610.0) rotate(58)" text-anchor="start">Acima de 103.062.000</text>
+<text x="640.0" y="788.0" class="axis" text-anchor="middle">Faixas de renda publicadas (Cr$ 1,00)</text>
+<text class="axis" transform="translate(28,358.0) rotate(-90)" text-anchor="middle">Declarantes</text>
+<text x="34.0" y="828.0" class="note">Eixo X: faixas de renda publicadas pela fonte (Cr$ 1,00). Eixo Y: declarantes. A publicacao IRPF 1984 cobre ano-base 1983/exercicio 1984. Ela traz</text>
+<text x="34.0" y="845.0" class="note">quadros nacionais no fechamento das tabelas por Unidades Federadas e Regioes Fiscais, mas o Quadro 2 continua decompondo a renda liquida calculada</text>
+<text x="34.0" y="862.0" class="note">apenas em tres blocos: negativa, de zero a Cr$ 1.084.000 e acim...</text>
+</svg>

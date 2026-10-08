@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202124}
+.title{font-size:28px;font-weight:700}
+.subtitle{font-size:16px;fill:#4a4f55}
+.axis{font-size:15px;fill:#30343a}
+.tick{font-size:13px;fill:#4a4f55}
+.note{font-size:13px;fill:#4a4f55}
+.bar{fill:#2f6f9f}
+.bar:hover{fill:#c85a28}
+.grid{stroke:#d8dde3;stroke-width:1}
+.frame{stroke:#7f8790;stroke-width:1;fill:none}
+</style>
+<rect x="0" y="0" width="1280" height="900" fill="#ffffff"/>
+<text x="34.0" y="44.0" class="title">IRPF 1959 - Brasil - renda liquida</text>
+<text x="34.0" y="72.0" class="subtitle">IBGE, Anuario Estatistico do Brasil 1961, p. 423, Tabela 2a</text>
+<line x1="100" y1="590.0" x2="1238" y2="590.0" class="grid"/>
+<text x="88.0" y="594.0" class="tick" text-anchor="end">0</text>
+<line x1="100" y1="497.2" x2="1238" y2="497.2" class="grid"/>
+<text x="88.0" y="501.2" class="tick" text-anchor="end">20k</text>
+<line x1="100" y1="404.4" x2="1238" y2="404.4" class="grid"/>
+<text x="88.0" y="408.4" class="tick" text-anchor="end">40k</text>
+<line x1="100" y1="311.6" x2="1238" y2="311.6" class="grid"/>
+<text x="88.0" y="315.6" class="tick" text-anchor="end">60k</text>
+<line x1="100" y1="218.8" x2="1238" y2="218.8" class="grid"/>
+<text x="88.0" y="222.8" class="tick" text-anchor="end">80k</text>
+<line x1="100" y1="126.0" x2="1238" y2="126.0" class="grid"/>
+<text x="88.0" y="130.0" class="tick" text-anchor="end">100k</text>
+<rect x="100" y="126" width="1138" height="464" class="frame"/>
+<rect class="bar" x="102.5" y="172.8" width="82.5" height="417.2"><title>De 91 a 135: 89.911</title></rect>
+<text class="tick" transform="translate(143.8,610.0) rotate(58)" text-anchor="start">De 91 a 135</text>
+<rect class="bar" x="190.0" y="256.9" width="82.5" height="333.1"><title>De 136 a 180: 71.794</title></rect>
+<text class="tick" transform="translate(231.3,610.0) rotate(58)" text-anchor="start">De 136 a 180</text>
+<rect class="bar" x="277.6" y="340.8" width="82.5" height="249.2"><title>De 181 a 225: 53.705</title></rect>
+<text class="tick" transform="translate(318.8,610.0) rotate(58)" text-anchor="start">De 181 a 225</text>
+<rect class="bar" x="365.1" y="345.0" width="82.5" height="245.0"><title>De 226 a 300: 52.803</title></rect>
+<text class="tick" transform="translate(406.4,610.0) rotate(58)" text-anchor="start">De 226 a 300</text>
+<rect class="bar" x="452.7" y="388.2" width="82.5" height="201.8"><title>De 301 a 450: 43.482</title></rect>
+<text class="tick" transform="translate(493.9,610.0) rotate(58)" text-anchor="start">De 301 a 450</text>
+<rect class="bar" x="540.2" y="503.3" width="82.5" height="86.7"><title>De 451 a 600: 18.690</title></rect>
+<text class="tick" transform="translate(581.5,610.0) rotate(58)" text-anchor="start">De 451 a 600</text>
+<rect class="bar" x="627.7" y="544.8" width="82.5" height="45.2"><title>De 601 a 750: 9.737</title></rect>
+<text class="tick" transform="translate(669.0,610.0) rotate(58)" text-anchor="start">De 601 a 750</text>
+<rect class="bar" x="715.3" y="564.7" width="82.5" height="25.3"><title>De 751 a 900: 5.462</title></rect>
+<text class="tick" transform="translate(756.5,610.0) rotate(58)" text-anchor="start">De 751 a 900</text>
+<rect class="bar" x="802.8" y="573.8" width="82.5" height="16.2"><title>De 901 a 1050: 3.485</title></rect>
+<text class="tick" transform="translate(844.1,610.0) rotate(58)" text-anchor="start">De 901 a 1050</text>
+<rect class="bar" x="890.3" y="566.3" width="82.5" height="23.7"><title>De 1051 a 1500: 5.110</title></rect>
+<text class="tick" transform="translate(931.6,610.0) rotate(58)" text-anchor="start">De 1051 a 1500</text>
+<rect class="bar" x="977.9" y="574.7" width="82.5" height="15.3"><title>De 1501 a 3000: 3.293</title></rect>
+<text class="tick" transform="translate(1019.2,610.0) rotate(58)" text-anchor="start">De 1501 a 3000</text>
+<rect class="bar" x="1065.4" y="587.6" width="82.5" height="2.4"><title>De 3001 a 4500: 519</title></rect>
+<text class="tick" transform="translate(1106.7,610.0) rotate(58)" text-anchor="start">De 3001 a 4500</text>
+<rect class="bar" x="1153.0" y="588.8" width="82.5" height="1.2"><title>Mais de 4501: 251</title></rect>
+<text class="tick" transform="translate(1194.2,610.0) rotate(58)" text-anchor="start">Mais de 4501</text>
+<text x="640.0" y="788.0" class="axis" text-anchor="middle">Faixas de renda publicadas (unidade publicada pela fonte)</text>
+<text class="axis" transform="translate(28,358.0) rotate(-90)" text-anchor="middle">Pessoas fisicas notificadas</text>
+<text x="34.0" y="828.0" class="note">Eixo X: faixas de renda publicadas pela fonte (unidade publicada pela fonte). Eixo Y: pessoas fisicas notificadas.</text>
+</svg>

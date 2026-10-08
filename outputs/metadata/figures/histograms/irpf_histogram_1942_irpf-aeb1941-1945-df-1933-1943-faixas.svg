@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202124}
+.title{font-size:28px;font-weight:700}
+.subtitle{font-size:16px;fill:#4a4f55}
+.axis{font-size:15px;fill:#30343a}
+.tick{font-size:13px;fill:#4a4f55}
+.note{font-size:13px;fill:#4a4f55}
+.bar{fill:#2f6f9f}
+.bar:hover{fill:#c85a28}
+.grid{stroke:#d8dde3;stroke-width:1}
+.frame{stroke:#7f8790;stroke-width:1;fill:none}
+</style>
+<rect x="0" y="0" width="1280" height="900" fill="#ffffff"/>
+<text x="34.0" y="44.0" class="title">IRPF 1942 - Distrito Federal - renda liquida</text>
+<text x="34.0" y="72.0" class="subtitle">Brasil. Instituto Brasileiro de Geografia e Estatistica. Anuario Estatistico do Brasil 1941-1945. Rio de Janeiro: IBGE, 1946, p.</text>
+<text x="34.0" y="92.0" class="subtitle">496-497, tabela beta.</text>
+<line x1="100" y1="590.0" x2="1238" y2="590.0" class="grid"/>
+<text x="88.0" y="594.0" class="tick" text-anchor="end">0</text>
+<line x1="100" y1="474.0" x2="1238" y2="474.0" class="grid"/>
+<text x="88.0" y="478.0" class="tick" text-anchor="end">5k</text>
+<line x1="100" y1="358.0" x2="1238" y2="358.0" class="grid"/>
+<text x="88.0" y="362.0" class="tick" text-anchor="end">10k</text>
+<line x1="100" y1="242.0" x2="1238" y2="242.0" class="grid"/>
+<text x="88.0" y="246.0" class="tick" text-anchor="end">15k</text>
+<line x1="100" y1="126.0" x2="1238" y2="126.0" class="grid"/>
+<text x="88.0" y="130.0" class="tick" text-anchor="end">20k</text>
+<rect x="100" y="126" width="1138" height="464" class="frame"/>
+<rect class="bar" x="102.5" y="203.9" width="89.8" height="386.1"><title>De mais de 12 a 20: 16.643</title></rect>
+<text class="tick" transform="translate(147.4,610.0) rotate(58)" text-anchor="start">De mais de 12 a 20</text>
+<rect class="bar" x="197.3" y="372.3" width="89.8" height="217.7"><title>De mais de 20 a 30: 9.385</title></rect>
+<text class="tick" transform="translate(242.2,610.0) rotate(58)" text-anchor="start">De mais de 20 a 30</text>
+<rect class="bar" x="292.2" y="372.4" width="89.8" height="217.6"><title>De mais de 30 a 60: 9.379</title></rect>
+<text class="tick" transform="translate(337.1,610.0) rotate(58)" text-anchor="start">De mais de 30 a 60</text>
+<rect class="bar" x="387.0" y="520.9" width="89.8" height="69.1"><title>De mais de 60 a 90: 2.978</title></rect>
+<text class="tick" transform="translate(431.9,610.0) rotate(58)" text-anchor="start">De mais de 60 a 90</text>
+<rect class="bar" x="481.8" y="555.1" width="89.8" height="34.9"><title>De mais de 90 a 120: 1.503</title></rect>
+<text class="tick" transform="translate(526.8,610.0) rotate(58)" text-anchor="start">De mais de 90 a 120</text>
+<rect class="bar" x="576.7" y="570.0" width="89.8" height="20.0"><title>De mais de 120 a 150: 860</title></rect>
+<text class="tick" transform="translate(621.6,610.0) rotate(58)" text-anchor="start">De mais de 120 a 150</text>
+<rect class="bar" x="671.5" y="568.4" width="89.8" height="21.6"><title>De mais de 150 a 200: 932</title></rect>
+<text class="tick" transform="translate(716.4,610.0) rotate(58)" text-anchor="start">De mais de 150 a 200</text>
+<rect class="bar" x="766.3" y="577.8" width="89.8" height="12.2"><title>De mais de 200 a 250: 528</title></rect>
+<text class="tick" transform="translate(811.2,610.0) rotate(58)" text-anchor="start">De mais de 200 a 250</text>
+<rect class="bar" x="861.2" y="582.0" width="89.8" height="8.0"><title>De mais de 250 a 300: 346</title></rect>
+<text class="tick" transform="translate(906.1,610.0) rotate(58)" text-anchor="start">De mais de 250 a 300</text>
+<rect class="bar" x="956.0" y="580.9" width="89.8" height="9.1"><title>De mais de 300 a 400: 391</title></rect>
+<text class="tick" transform="translate(1000.9,610.0) rotate(58)" text-anchor="start">De mais de 300 a 400</text>
+<rect class="bar" x="1050.8" y="584.7" width="89.8" height="5.3"><title>De mais de 400 a 500: 230</title></rect>
+<text class="tick" transform="translate(1095.8,610.0) rotate(58)" text-anchor="start">De mais de 400 a 500</text>
+<rect class="bar" x="1145.7" y="577.1" width="89.8" height="12.9"><title>Mais de 500: 558</title></rect>
+<text class="tick" transform="translate(1190.6,610.0) rotate(58)" text-anchor="start">Mais de 500</text>
+<text x="640.0" y="788.0" class="axis" text-anchor="middle">Faixas de renda publicadas (Cr$ 1.000)</text>
+<text class="axis" transform="translate(28,358.0) rotate(-90)" text-anchor="middle">Pessoas fisicas notificadas</text>
+<text x="34.0" y="828.0" class="note">Eixo X: faixas de renda publicadas pela fonte (Cr$ 1.000). Eixo Y: pessoas fisicas notificadas. Serie regional: Distrito Federal. Serie do Distrito</text>
+<text x="34.0" y="845.0" class="note">Federal; nao comparar diretamente com a serie nacional. A tabela traz anos impressos 1934-1944; seguindo a regra dos Anuarios Estatisticos do Brasil</text>
+<text x="34.0" y="862.0" class="note">usada no projeto, ano_calendario = ano_exercicio - 1.</text>
+</svg>

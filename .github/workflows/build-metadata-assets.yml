@@ -53,4 +53,5 @@ jobs:
             data/trusted/irpf_distribution_total_values_usd_2026.csv \
             data/trusted/irpf_distribution_source_metadata_yearly.csv \
             outputs/metadata/tables/irpf_distribution_metadata_reference_table.csv \
-            outputs/metadata/tables/irpf_distribution_metadata_reference_table.pdf
+            outputs/metadata/tables/irpf_distribution_metadata_reference_table.pdf \
+            outputs/metadata/figures/histograms
