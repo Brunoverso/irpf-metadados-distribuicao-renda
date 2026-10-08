@@ -15,3 +15,5 @@ Future files in this folder may include:
 - access notes for physical or digital repositories.
 
 Current manifests are stored in `manifests/`.
+
+Macroeconomic source series used for currency conversion are stored in `macro/`.

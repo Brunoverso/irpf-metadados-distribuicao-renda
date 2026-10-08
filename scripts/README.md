@@ -22,6 +22,18 @@ Build the refined and trusted data package from extracted IRPF CSV tables:
 python scripts/build_data_package.py
 ```
 
+Build monetary-value tables converted to nominal USD and 2026 USD:
+
+```powershell
+python scripts/build_adjusted_usd_tables.py
+```
+
+Refresh the BCB/FRED macro series before rebuilding the adjusted tables:
+
+```powershell
+python scripts/build_adjusted_usd_tables.py --refresh-macro
+```
+
 Build the raw PDF source manifest from the local research workspace:
 
 ```powershell

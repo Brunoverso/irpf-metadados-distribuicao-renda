@@ -45,9 +45,12 @@ jobs:
             data/refined/irpf_extracted_tables_manifest.csv \
             data/refined/irpf_extracted_values_long.csv \
             data/refined/extractions \
+            data/refined/macro/usd_2026_conversion_factors.csv \
             data/trusted/irpf_distribution_brackets_all_sources.csv \
             data/trusted/irpf_distribution_totals_all_sources.csv \
             data/trusted/irpf_distribution_data_dictionary.csv \
+            data/trusted/irpf_distribution_bracket_values_usd_2026.csv \
+            data/trusted/irpf_distribution_total_values_usd_2026.csv \
             data/trusted/irpf_distribution_source_metadata_yearly.csv \
             outputs/metadata/tables/irpf_distribution_metadata_reference_table.csv \
             outputs/metadata/tables/irpf_distribution_metadata_reference_table.pdf
