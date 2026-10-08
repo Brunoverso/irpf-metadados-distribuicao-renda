@@ -1,64 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
 <style>
 text{font-family:Arial,Helvetica,sans-serif;fill:#202124}
-.title{font-size:28px;font-weight:700}
-.subtitle{font-size:16px;fill:#4a4f55}
-.axis{font-size:15px;fill:#30343a}
-.tick{font-size:13px;fill:#4a4f55}
-.note{font-size:13px;fill:#4a4f55}
+.title{font-size:42px;font-weight:700}
+.subtitle{font-size:24px;fill:#4a4f55}
+.axis{font-size:24px;fill:#30343a}
+.tick{font-size:20px;fill:#4a4f55}
+.note{font-size:20px;fill:#4a4f55}
 .bar{fill:#2f6f9f}
 .bar:hover{fill:#c85a28}
 .grid{stroke:#d8dde3;stroke-width:1}
 .frame{stroke:#7f8790;stroke-width:1;fill:none}
 </style>
-<rect x="0" y="0" width="1280" height="900" fill="#ffffff"/>
-<text x="34.0" y="44.0" class="title">IRPF 1969 - Brasil</text>
-<text x="34.0" y="72.0" class="subtitle">Brasil. Ministerio da Fazenda. Anuario Economico-Fiscal 1971. Brasilia: Ministerio da Fazenda, 1971.</text>
-<line x1="100" y1="590.0" x2="1238" y2="590.0" class="grid"/>
-<text x="88.0" y="594.0" class="tick" text-anchor="end">0</text>
-<line x1="100" y1="497.2" x2="1238" y2="497.2" class="grid"/>
-<text x="88.0" y="501.2" class="tick" text-anchor="end">1M</text>
-<line x1="100" y1="404.4" x2="1238" y2="404.4" class="grid"/>
-<text x="88.0" y="408.4" class="tick" text-anchor="end">2M</text>
-<line x1="100" y1="311.6" x2="1238" y2="311.6" class="grid"/>
-<text x="88.0" y="315.6" class="tick" text-anchor="end">3M</text>
-<line x1="100" y1="218.8" x2="1238" y2="218.8" class="grid"/>
-<text x="88.0" y="222.8" class="tick" text-anchor="end">4M</text>
-<line x1="100" y1="126.0" x2="1238" y2="126.0" class="grid"/>
-<text x="88.0" y="130.0" class="tick" text-anchor="end">5M</text>
-<rect x="100" y="126" width="1138" height="464" class="frame"/>
-<rect class="bar" x="102.5" y="157.4" width="70.9" height="432.6"><title>Ate 4.200: 4.661.258</title></rect>
-<text class="tick" transform="translate(137.9,610.0) rotate(58)" text-anchor="start">Ate 4.200</text>
-<rect class="bar" x="178.4" y="579.1" width="70.9" height="10.9"><title>4.200 a 4.500: 117.216</title></rect>
-<text class="tick" transform="translate(213.8,610.0) rotate(58)" text-anchor="start">4.200 a 4.500</text>
-<rect class="bar" x="254.2" y="550.4" width="70.9" height="39.6"><title>4.500 a 6.000: 426.639</title></rect>
-<text class="tick" transform="translate(289.7,610.0) rotate(58)" text-anchor="start">4.500 a 6.000</text>
-<rect class="bar" x="330.1" y="555.6" width="70.9" height="34.4"><title>6.000 a 8.400: 370.711</title></rect>
-<text class="tick" transform="translate(365.5,610.0) rotate(58)" text-anchor="start">6.000 a 8.400</text>
-<rect class="bar" x="406.0" y="564.1" width="70.9" height="25.9"><title>8.400 a 12.000: 278.789</title></rect>
-<text class="tick" transform="translate(441.4,610.0) rotate(58)" text-anchor="start">8.400 a 12.000</text>
-<rect class="bar" x="481.8" y="574.2" width="70.9" height="15.8"><title>12.000 a 16.500: 170.671</title></rect>
-<text class="tick" transform="translate(517.3,610.0) rotate(58)" text-anchor="start">12.000 a 16.500</text>
-<rect class="bar" x="557.7" y="579.7" width="70.9" height="10.3"><title>16.500 a 22.500: 110.801</title></rect>
-<text class="tick" transform="translate(593.1,610.0) rotate(58)" text-anchor="start">16.500 a 22.500</text>
-<rect class="bar" x="633.6" y="583.7" width="70.9" height="6.3"><title>22.500 a 30.000: 67.896</title></rect>
-<text class="tick" transform="translate(669.0,610.0) rotate(58)" text-anchor="start">22.500 a 30.000</text>
-<rect class="bar" x="709.4" y="585.3" width="70.9" height="4.7"><title>30.000 a 45.000: 50.650</title></rect>
-<text class="tick" transform="translate(744.9,610.0) rotate(58)" text-anchor="start">30.000 a 45.000</text>
-<rect class="bar" x="785.3" y="588.5" width="70.9" height="1.5"><title>45.000 a 60.000: 16.589</title></rect>
-<text class="tick" transform="translate(820.7,610.0) rotate(58)" text-anchor="start">45.000 a 60.000</text>
-<rect class="bar" x="861.2" y="588.9" width="70.9" height="1.1"><title>60.000 a 100.000: 11.771</title></rect>
-<text class="tick" transform="translate(896.6,610.0) rotate(58)" text-anchor="start">60.000 a 100.000</text>
-<rect class="bar" x="937.0" y="589.6" width="70.9" height="0.4"><title>100.000 a 250.000: 4.126</title></rect>
-<text class="tick" transform="translate(972.5,610.0) rotate(58)" text-anchor="start">100.000 a 250.000</text>
-<rect class="bar" x="1012.9" y="590.0" width="70.9" height="0.0"><title>250.000 a 500.000: 522</title></rect>
-<text class="tick" transform="translate(1048.3,610.0) rotate(58)" text-anchor="start">250.000 a 500.000</text>
-<rect class="bar" x="1088.8" y="590.0" width="70.9" height="0.0"><title>500.000 a 1.000.000: 112</title></rect>
-<text class="tick" transform="translate(1124.2,610.0) rotate(58)" text-anchor="start">500.000 a 1.000.000</text>
-<rect class="bar" x="1164.6" y="590.0" width="70.9" height="0.0"><title>Acima de 1.000.000: 28</title></rect>
-<text class="tick" transform="translate(1200.1,610.0) rotate(58)" text-anchor="start">Acima de 1.000.000</text>
-<text x="640.0" y="788.0" class="axis" text-anchor="middle">Faixas de renda publicadas (Cr$ 1,00)</text>
-<text class="axis" transform="translate(28,358.0) rotate(-90)" text-anchor="middle">Contribuintes</text>
-<text x="34.0" y="828.0" class="note">Eixo X: faixas de renda publicadas pela fonte (Cr$ 1,00). Eixo Y: contribuintes. Ultimo digito de contribuintes com desconto na fonte esta pouco</text>
-<text x="34.0" y="845.0" class="note">legivel no scan; foi lido como 154.796 porque fecha com o total publicado.</text>
+<rect x="0" y="0" width="1600" height="1120" fill="#ffffff"/>
+<text x="44.0" y="58.0" class="title">IRPF 1969 - Brasil</text>
+<text x="44.0" y="94.0" class="subtitle">Brasil. Ministerio da Fazenda. Anuario Economico-Fiscal 1971. Brasilia: Ministerio da Fazenda, 1971.</text>
+<line x1="130" y1="690.0" x2="1380" y2="690.0" class="grid"/>
+<text x="114.0" y="697.0" class="tick" text-anchor="end">0</text>
+<line x1="130" y1="584.0" x2="1380" y2="584.0" class="grid"/>
+<text x="114.0" y="591.0" class="tick" text-anchor="end">1M</text>
+<line x1="130" y1="478.0" x2="1380" y2="478.0" class="grid"/>
+<text x="114.0" y="485.0" class="tick" text-anchor="end">2M</text>
+<line x1="130" y1="372.0" x2="1380" y2="372.0" class="grid"/>
+<text x="114.0" y="379.0" class="tick" text-anchor="end">3M</text>
+<line x1="130" y1="266.0" x2="1380" y2="266.0" class="grid"/>
+<text x="114.0" y="273.0" class="tick" text-anchor="end">4M</text>
+<line x1="130" y1="160.0" x2="1380" y2="160.0" class="grid"/>
+<text x="114.0" y="167.0" class="tick" text-anchor="end">5M</text>
+<rect x="130" y="160" width="1250" height="530" class="frame"/>
+<rect class="bar" x="132.5" y="195.9" width="78.3" height="494.1"><title>Ate 4.200: 4.661.258</title></rect>
+<text class="tick" transform="translate(171.7,720.0) rotate(58)" text-anchor="start">Ate 4.200</text>
+<rect class="bar" x="215.8" y="677.6" width="78.3" height="12.4"><title>4.200 a 4.500: 117.216</title></rect>
+<text class="tick" transform="translate(255.0,720.0) rotate(58)" text-anchor="start">4.200 a 4.500</text>
+<rect class="bar" x="299.2" y="644.8" width="78.3" height="45.2"><title>4.500 a 6.000: 426.639</title></rect>
+<text class="tick" transform="translate(338.3,720.0) rotate(58)" text-anchor="start">4.500 a 6.000</text>
+<rect class="bar" x="382.5" y="650.7" width="78.3" height="39.3"><title>6.000 a 8.400: 370.711</title></rect>
+<text class="tick" transform="translate(421.7,720.0) rotate(58)" text-anchor="start">6.000 a 8.400</text>
+<rect class="bar" x="465.8" y="660.4" width="78.3" height="29.6"><title>8.400 a 12.000: 278.789</title></rect>
+<text class="tick" transform="translate(505.0,720.0) rotate(58)" text-anchor="start">8.400 a 12.000</text>
+<rect class="bar" x="549.2" y="671.9" width="78.3" height="18.1"><title>12.000 a 16.500: 170.671</title></rect>
+<text class="tick" transform="translate(588.3,720.0) rotate(58)" text-anchor="start">12.000 a 16.500</text>
+<rect class="bar" x="632.5" y="678.3" width="78.3" height="11.7"><title>16.500 a 22.500: 110.801</title></rect>
+<text class="tick" transform="translate(671.7,720.0) rotate(58)" text-anchor="start">16.500 a 22.500</text>
+<rect class="bar" x="715.8" y="682.8" width="78.3" height="7.2"><title>22.500 a 30.000: 67.896</title></rect>
+<text class="tick" transform="translate(755.0,720.0) rotate(58)" text-anchor="start">22.500 a 30.000</text>
+<rect class="bar" x="799.2" y="684.6" width="78.3" height="5.4"><title>30.000 a 45.000: 50.650</title></rect>
+<text class="tick" transform="translate(838.3,720.0) rotate(58)" text-anchor="start">30.000 a 45.000</text>
+<rect class="bar" x="882.5" y="688.2" width="78.3" height="1.8"><title>45.000 a 60.000: 16.589</title></rect>
+<text class="tick" transform="translate(921.7,720.0) rotate(58)" text-anchor="start">45.000 a 60.000</text>
+<rect class="bar" x="965.8" y="688.8" width="78.3" height="1.2"><title>60.000 a 100.000: 11.771</title></rect>
+<text class="tick" transform="translate(1005.0,720.0) rotate(58)" text-anchor="start">60.000 a 100.000</text>
+<rect class="bar" x="1049.2" y="689.6" width="78.3" height="0.4"><title>100.000 a 250.000: 4.126</title></rect>
+<text class="tick" transform="translate(1088.3,720.0) rotate(58)" text-anchor="start">100.000 a 250.000</text>
+<rect class="bar" x="1132.5" y="689.9" width="78.3" height="0.1"><title>250.000 a 500.000: 522</title></rect>
+<text class="tick" transform="translate(1171.7,720.0) rotate(58)" text-anchor="start">250.000 a 500.000</text>
+<rect class="bar" x="1215.8" y="690.0" width="78.3" height="0.0"><title>500.000 a 1.000.000: 112</title></rect>
+<text class="tick" transform="translate(1255.0,720.0) rotate(58)" text-anchor="start">500.000 a 1.000.000</text>
+<rect class="bar" x="1299.2" y="690.0" width="78.3" height="0.0"><title>Acima de 1.000.000: 28</title></rect>
+<text class="tick" transform="translate(1338.3,720.0) rotate(58)" text-anchor="start">Acima de 1.000.000</text>
+<text x="755.0" y="955.0" class="axis" text-anchor="middle">Faixas de renda publicadas (Cr$ 1,00)</text>
+<text class="axis" transform="translate(38,425.0) rotate(-90)" text-anchor="middle">Contribuintes</text>
+<text x="44.0" y="1012.0" class="note">Eixo X: faixas de renda publicadas pela fonte (Cr$ 1,00). Eixo Y: contribuintes. Ultimo digito de contribuintes com</text>
+<text x="44.0" y="1038.0" class="note">desconto na fonte esta pouco legivel no scan; foi lido como 154.796 porque fecha com o total publicado.</text>
 </svg>

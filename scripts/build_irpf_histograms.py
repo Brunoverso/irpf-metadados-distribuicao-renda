@@ -20,12 +20,13 @@ DEFAULT_OUTPUT_DIR = ROOT / "outputs" / "metadata" / "figures" / "histograms"
 DEFAULT_MANIFEST = DEFAULT_OUTPUT_DIR / "irpf_histogram_manifest.csv"
 DEFAULT_PDF = DEFAULT_OUTPUT_DIR / "irpf_distribution_histograms.pdf"
 
-SVG_WIDTH = 1280
-SVG_HEIGHT = 900
-PLOT_LEFT = 100
-PLOT_RIGHT = 42
-PLOT_TOP = 126
-PLOT_BOTTOM = 310
+SVG_WIDTH = 1600
+SVG_HEIGHT = 1120
+PLOT_LEFT = 130
+PLOT_RIGHT = 220
+PLOT_TOP = 160
+PLOT_BOTTOM = 430
+HISTOGRAM_LABEL_LIMIT = 24
 
 FREQUENCY_FIELDS = [
     ("pessoas_fisicas_notificadas", "Pessoas fisicas notificadas"),
@@ -318,7 +319,7 @@ def make_histogram_spec(rows: list[dict[str, str]], output_dir: Path) -> tuple[H
         full_label = clean(row.get(label_field)) if label_field else fallback_bracket_label(row)
         points.append(
             HistogramPoint(
-                label=truncate_label(full_label),
+                label=truncate_label(full_label, HISTOGRAM_LABEL_LIMIT),
                 full_label=ascii_text(full_label),
                 value=value,
                 order=sort_key(row)[0],
@@ -410,27 +411,27 @@ def write_svg(spec: HistogramSpec) -> None:
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{SVG_WIDTH}" height="{SVG_HEIGHT}" viewBox="0 0 {SVG_WIDTH} {SVG_HEIGHT}">',
         "<style>",
         "text{font-family:Arial,Helvetica,sans-serif;fill:#202124}",
-        ".title{font-size:28px;font-weight:700}",
-        ".subtitle{font-size:16px;fill:#4a4f55}",
-        ".axis{font-size:15px;fill:#30343a}",
-        ".tick{font-size:13px;fill:#4a4f55}",
-        ".note{font-size:13px;fill:#4a4f55}",
+        ".title{font-size:42px;font-weight:700}",
+        ".subtitle{font-size:24px;fill:#4a4f55}",
+        ".axis{font-size:24px;fill:#30343a}",
+        ".tick{font-size:20px;fill:#4a4f55}",
+        ".note{font-size:20px;fill:#4a4f55}",
         ".bar{fill:#2f6f9f}",
         ".bar:hover{fill:#c85a28}",
         ".grid{stroke:#d8dde3;stroke-width:1}",
         ".frame{stroke:#7f8790;stroke-width:1;fill:none}",
         "</style>",
         f'<rect x="0" y="0" width="{SVG_WIDTH}" height="{SVG_HEIGHT}" fill="#ffffff"/>',
-        svg_text(34, 44, spec.title, class_="title"),
+        svg_text(44, 58, spec.title, class_="title"),
     ]
 
-    for i, line in enumerate(wrap_svg_text(spec.subtitle, 134)[:2]):
-        parts.append(svg_text(34, 72 + i * 20, line, class_="subtitle"))
+    for i, line in enumerate(wrap_svg_text(spec.subtitle, 116)[:2]):
+        parts.append(svg_text(44, 94 + i * 30, line, class_="subtitle"))
 
     for tick in ticks:
         y = PLOT_TOP + plot_height - (tick / y_top) * plot_height if y_top else PLOT_TOP + plot_height
         parts.append(f'<line x1="{PLOT_LEFT}" y1="{y:.1f}" x2="{SVG_WIDTH - PLOT_RIGHT}" y2="{y:.1f}" class="grid"/>')
-        parts.append(svg_text(PLOT_LEFT - 12, y + 4, format_count(tick), class_="tick", text_anchor="end"))
+        parts.append(svg_text(PLOT_LEFT - 16, y + 7, format_count(tick), class_="tick", text_anchor="end"))
 
     parts.append(f'<rect x="{PLOT_LEFT}" y="{PLOT_TOP}" width="{plot_width}" height="{plot_height}" class="frame"/>')
 
@@ -443,19 +444,19 @@ def write_svg(spec: HistogramSpec) -> None:
             f"<title>{escape(point.full_label)}: {format_full_count(point.value)}</title></rect>"
         )
         label_x = x + bar_width / 2
-        label_y = PLOT_TOP + plot_height + 20
+        label_y = PLOT_TOP + plot_height + 30
         parts.append(
             f'<text class="tick" transform="translate({label_x:.1f},{label_y:.1f}) rotate(58)" '
             f'text-anchor="start">{escape(point.label)}</text>'
         )
 
-    parts.append(svg_text(SVG_WIDTH / 2, SVG_HEIGHT - 112, spec.x_axis_label, class_="axis", text_anchor="middle"))
+    parts.append(svg_text(PLOT_LEFT + plot_width / 2, SVG_HEIGHT - 165, spec.x_axis_label, class_="axis", text_anchor="middle"))
     parts.append(
-        f'<text class="axis" transform="translate(28,{PLOT_TOP + plot_height / 2:.1f}) rotate(-90)" '
+        f'<text class="axis" transform="translate(38,{PLOT_TOP + plot_height / 2:.1f}) rotate(-90)" '
         f'text-anchor="middle">{escape(ascii_text(spec.y_axis_label))}</text>'
     )
-    for i, line in enumerate(wrap_svg_text(spec.note, 150)[:3]):
-        parts.append(svg_text(34, SVG_HEIGHT - 72 + i * 17, line, class_="note"))
+    for i, line in enumerate(wrap_svg_text(spec.note, 120)[:3]):
+        parts.append(svg_text(44, SVG_HEIGHT - 108 + i * 26, line, class_="note"))
     parts.append("</svg>")
 
     spec.svg_path.parent.mkdir(parents=True, exist_ok=True)
@@ -470,10 +471,10 @@ def draw_wrapped_pdf_text(pdf: canvas.Canvas, x: float, y: float, text: str, max
 
 
 def draw_pdf_page(pdf: canvas.Canvas, spec: HistogramSpec, page_width: float, page_height: float) -> None:
-    left = 72
-    right = 42
-    top = 116
-    bottom = 210
+    left = 96
+    right = 150
+    top = 138
+    bottom = 270
     plot_width = page_width - left - right
     plot_height = page_height - top - bottom
     max_value = max(point.value for point in spec.points)
@@ -484,22 +485,22 @@ def draw_pdf_page(pdf: canvas.Canvas, spec: HistogramSpec, page_width: float, pa
     bar_width = max(2, band - bar_gap)
 
     pdf.setFillColorRGB(0.12, 0.13, 0.15)
-    pdf.setFont("Helvetica-Bold", 18)
-    pdf.drawString(34, page_height - 44, ascii_text(spec.title)[:150])
-    pdf.setFont("Helvetica", 10)
-    y = page_height - 67
-    y = draw_wrapped_pdf_text(pdf, 34, y, spec.subtitle, 160, 12)
+    pdf.setFont("Helvetica-Bold", 24)
+    pdf.drawString(34, page_height - 48, ascii_text(spec.title)[:150])
+    pdf.setFont("Helvetica", 13.5)
+    y = page_height - 78
+    y = draw_wrapped_pdf_text(pdf, 34, y, spec.subtitle, 130, 16)
 
     frame_bottom = bottom
     frame_top = bottom + plot_height
     pdf.setStrokeColorRGB(0.84, 0.86, 0.89)
     pdf.setLineWidth(0.5)
-    pdf.setFont("Helvetica", 8)
+    pdf.setFont("Helvetica", 11)
     for tick in ticks:
         tick_y = frame_bottom + (tick / y_top) * plot_height if y_top else frame_bottom
         pdf.line(left, tick_y, page_width - right, tick_y)
         pdf.setFillColorRGB(0.29, 0.31, 0.34)
-        pdf.drawRightString(left - 7, tick_y - 3, format_count(tick))
+        pdf.drawRightString(left - 10, tick_y - 4, format_count(tick))
 
     pdf.setStrokeColorRGB(0.48, 0.52, 0.56)
     pdf.rect(left, frame_bottom, plot_width, plot_height, stroke=1, fill=0)
@@ -510,26 +511,26 @@ def draw_pdf_page(pdf: canvas.Canvas, spec: HistogramSpec, page_width: float, pa
         pdf.rect(x, frame_bottom, bar_width, height, stroke=0, fill=1)
 
     pdf.setFillColorRGB(0.18, 0.19, 0.21)
-    pdf.setFont("Helvetica", 7.2 if len(spec.points) > 24 else 8.2)
+    pdf.setFont("Helvetica", 9.5 if len(spec.points) > 24 else 11)
     for index, point in enumerate(spec.points):
         x = left + index * band + bar_width / 2 + bar_gap / 2
         pdf.saveState()
-        pdf.translate(x, frame_bottom - 8)
-        pdf.rotate(55)
-        pdf.drawString(0, 0, truncate_label(point.full_label, 24))
+        pdf.translate(x, frame_bottom - 14)
+        pdf.rotate(-55)
+        pdf.drawString(0, 0, truncate_label(point.full_label, HISTOGRAM_LABEL_LIMIT))
         pdf.restoreState()
 
-    pdf.setFont("Helvetica", 10)
-    pdf.drawCentredString(page_width / 2, 34, ascii_text(spec.x_axis_label))
+    pdf.setFont("Helvetica", 14)
+    pdf.drawCentredString(left + plot_width / 2, 88, ascii_text(spec.x_axis_label))
     pdf.saveState()
-    pdf.translate(24, frame_bottom + plot_height / 2)
+    pdf.translate(30, frame_bottom + plot_height / 2)
     pdf.rotate(90)
     pdf.drawCentredString(0, 0, ascii_text(spec.y_axis_label))
     pdf.restoreState()
 
     pdf.setFillColorRGB(0.29, 0.31, 0.34)
-    pdf.setFont("Helvetica", 8)
-    draw_wrapped_pdf_text(pdf, 34, 82, spec.note, 180, 10)
+    pdf.setFont("Helvetica", 10.5)
+    draw_wrapped_pdf_text(pdf, 34, 55, spec.note, 150, 12)
 
 
 def write_pdf(pdf_path: Path, specs: list[HistogramSpec]) -> None:

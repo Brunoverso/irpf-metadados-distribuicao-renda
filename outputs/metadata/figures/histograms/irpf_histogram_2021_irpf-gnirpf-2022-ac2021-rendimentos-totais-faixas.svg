@@ -1,70 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
 <style>
 text{font-family:Arial,Helvetica,sans-serif;fill:#202124}
-.title{font-size:28px;font-weight:700}
-.subtitle{font-size:16px;fill:#4a4f55}
-.axis{font-size:15px;fill:#30343a}
-.tick{font-size:13px;fill:#4a4f55}
-.note{font-size:13px;fill:#4a4f55}
+.title{font-size:42px;font-weight:700}
+.subtitle{font-size:24px;fill:#4a4f55}
+.axis{font-size:24px;fill:#30343a}
+.tick{font-size:20px;fill:#4a4f55}
+.note{font-size:20px;fill:#4a4f55}
 .bar{fill:#2f6f9f}
 .bar:hover{fill:#c85a28}
 .grid{stroke:#d8dde3;stroke-width:1}
 .frame{stroke:#7f8790;stroke-width:1;fill:none}
 </style>
-<rect x="0" y="0" width="1280" height="900" fill="#ffffff"/>
-<text x="34.0" y="44.0" class="title">IRPF 2021 - Brasil - rendimento total mensal em salarios minimos</text>
-<text x="34.0" y="72.0" class="subtitle">Brasil. Ministerio da Fazenda. Secretaria Especial da Receita Federal do Brasil. Centro de Estudos Tributarios e Aduaneiros. Grandes</text>
-<text x="34.0" y="92.0" class="subtitle">Numeros IRPF - ano-calendario 2021...</text>
-<line x1="100" y1="590.0" x2="1238" y2="590.0" class="grid"/>
-<text x="88.0" y="594.0" class="tick" text-anchor="end">0</text>
-<line x1="100" y1="497.2" x2="1238" y2="497.2" class="grid"/>
-<text x="88.0" y="501.2" class="tick" text-anchor="end">2M</text>
-<line x1="100" y1="404.4" x2="1238" y2="404.4" class="grid"/>
-<text x="88.0" y="408.4" class="tick" text-anchor="end">4M</text>
-<line x1="100" y1="311.6" x2="1238" y2="311.6" class="grid"/>
-<text x="88.0" y="315.6" class="tick" text-anchor="end">6M</text>
-<line x1="100" y1="218.8" x2="1238" y2="218.8" class="grid"/>
-<text x="88.0" y="222.8" class="tick" text-anchor="end">8M</text>
-<line x1="100" y1="126.0" x2="1238" y2="126.0" class="grid"/>
-<text x="88.0" y="130.0" class="tick" text-anchor="end">10M</text>
-<rect x="100" y="126" width="1138" height="464" class="frame"/>
-<rect class="bar" x="102.5" y="506.2" width="61.9" height="83.8"><title>Ate 1/2: 1.806.622</title></rect>
-<text class="tick" transform="translate(133.5,610.0) rotate(58)" text-anchor="start">Ate 1/2</text>
-<rect class="bar" x="169.4" y="541.3" width="61.9" height="48.7"><title>De 1/2 a 1: 1.050.501</title></rect>
-<text class="tick" transform="translate(200.4,610.0) rotate(58)" text-anchor="start">De 1/2 a 1</text>
-<rect class="bar" x="236.4" y="411.5" width="61.9" height="178.5"><title>De 1 a 2: 3.846.759</title></rect>
-<text class="tick" transform="translate(267.4,610.0) rotate(58)" text-anchor="start">De 1 a 2</text>
-<rect class="bar" x="303.3" y="240.5" width="61.9" height="349.5"><title>De 2 a 3: 7.532.815</title></rect>
-<text class="tick" transform="translate(334.3,610.0) rotate(58)" text-anchor="start">De 2 a 3</text>
-<rect class="bar" x="370.3" y="180.3" width="61.9" height="409.7"><title>De 3 a 5: 8.828.956</title></rect>
-<text class="tick" transform="translate(401.2,610.0) rotate(58)" text-anchor="start">De 3 a 5</text>
-<rect class="bar" x="437.2" y="394.3" width="61.9" height="195.7"><title>De 5 a 7: 4.217.691</title></rect>
-<text class="tick" transform="translate(468.2,610.0) rotate(58)" text-anchor="start">De 5 a 7</text>
-<rect class="bar" x="504.1" y="446.2" width="61.9" height="143.8"><title>De 7 a 10: 3.099.717</title></rect>
-<text class="tick" transform="translate(535.1,610.0) rotate(58)" text-anchor="start">De 7 a 10</text>
-<rect class="bar" x="571.1" y="480.2" width="61.9" height="109.8"><title>De 10 a 15: 2.366.993</title></rect>
-<text class="tick" transform="translate(602.1,610.0) rotate(58)" text-anchor="start">De 10 a 15</text>
-<rect class="bar" x="638.0" y="538.5" width="61.9" height="51.5"><title>De 15 a 20: 1.110.961</title></rect>
-<text class="tick" transform="translate(669.0,610.0) rotate(58)" text-anchor="start">De 15 a 20</text>
-<rect class="bar" x="705.0" y="542.9" width="61.9" height="47.1"><title>De 20 a 30: 1.014.544</title></rect>
-<text class="tick" transform="translate(735.9,610.0) rotate(58)" text-anchor="start">De 20 a 30</text>
-<rect class="bar" x="771.9" y="576.1" width="61.9" height="13.9"><title>De 30 a 40: 300.372</title></rect>
-<text class="tick" transform="translate(802.9,610.0) rotate(58)" text-anchor="start">De 30 a 40</text>
-<rect class="bar" x="838.9" y="568.5" width="61.9" height="21.5"><title>De 40 a 60: 462.364</title></rect>
-<text class="tick" transform="translate(869.8,610.0) rotate(58)" text-anchor="start">De 40 a 60</text>
-<rect class="bar" x="905.8" y="584.2" width="61.9" height="5.8"><title>De 60 a 80: 124.709</title></rect>
-<text class="tick" transform="translate(936.8,610.0) rotate(58)" text-anchor="start">De 60 a 80</text>
-<rect class="bar" x="972.7" y="583.5" width="61.9" height="6.5"><title>De 80 a 160: 140.889</title></rect>
-<text class="tick" transform="translate(1003.7,610.0) rotate(58)" text-anchor="start">De 80 a 160</text>
-<rect class="bar" x="1039.7" y="588.3" width="61.9" height="1.7"><title>De 160 a 240: 35.917</title></rect>
-<text class="tick" transform="translate(1070.6,610.0) rotate(58)" text-anchor="start">De 160 a 240</text>
-<rect class="bar" x="1106.6" y="589.2" width="61.9" height="0.8"><title>De 240 a 320: 17.789</title></rect>
-<text class="tick" transform="translate(1137.6,610.0) rotate(58)" text-anchor="start">De 240 a 320</text>
-<rect class="bar" x="1173.6" y="588.4" width="61.9" height="1.6"><title>Mais de 320: 35.462</title></rect>
-<text class="tick" transform="translate(1204.5,610.0) rotate(58)" text-anchor="start">Mais de 320</text>
-<text x="640.0" y="788.0" class="axis" text-anchor="middle">Faixas de renda publicadas (salarios minimos mensais)</text>
-<text class="axis" transform="translate(28,358.0) rotate(-90)" text-anchor="middle">Declarantes</text>
-<text x="34.0" y="828.0" class="note">Eixo X: faixas de renda publicadas pela fonte (salarios minimos mensais). Eixo Y: declarantes. Fonte nao listada na Tabela 4 extraida da tese de Pedro</text>
-<text x="34.0" y="845.0" class="note">Herculano, cuja serie ali transcrita se encerra em 2013; entra aqui como extensao propria da serie a partir das publicacoes oficiais da Receita</text>
-<text x="34.0" y="862.0" class="note">Federal. A fonte e o GNIRPF 2022, ano-calendario 2021, publica...</text>
+<rect x="0" y="0" width="1600" height="1120" fill="#ffffff"/>
+<text x="44.0" y="58.0" class="title">IRPF 2021 - Brasil - rendimento total mensal em salarios minimos</text>
+<text x="44.0" y="94.0" class="subtitle">Brasil. Ministerio da Fazenda. Secretaria Especial da Receita Federal do Brasil. Centro de Estudos Tributarios e</text>
+<text x="44.0" y="124.0" class="subtitle">Aduaneiros. Grandes Numeros IRPF - ano-calendario 2021...</text>
+<line x1="130" y1="690.0" x2="1380" y2="690.0" class="grid"/>
+<text x="114.0" y="697.0" class="tick" text-anchor="end">0</text>
+<line x1="130" y1="584.0" x2="1380" y2="584.0" class="grid"/>
+<text x="114.0" y="591.0" class="tick" text-anchor="end">2M</text>
+<line x1="130" y1="478.0" x2="1380" y2="478.0" class="grid"/>
+<text x="114.0" y="485.0" class="tick" text-anchor="end">4M</text>
+<line x1="130" y1="372.0" x2="1380" y2="372.0" class="grid"/>
+<text x="114.0" y="379.0" class="tick" text-anchor="end">6M</text>
+<line x1="130" y1="266.0" x2="1380" y2="266.0" class="grid"/>
+<text x="114.0" y="273.0" class="tick" text-anchor="end">8M</text>
+<line x1="130" y1="160.0" x2="1380" y2="160.0" class="grid"/>
+<text x="114.0" y="167.0" class="tick" text-anchor="end">10M</text>
+<rect x="130" y="160" width="1250" height="530" class="frame"/>
+<rect class="bar" x="132.5" y="594.2" width="68.5" height="95.8"><title>Ate 1/2: 1.806.622</title></rect>
+<text class="tick" transform="translate(166.8,720.0) rotate(58)" text-anchor="start">Ate 1/2</text>
+<rect class="bar" x="206.0" y="634.3" width="68.5" height="55.7"><title>De 1/2 a 1: 1.050.501</title></rect>
+<text class="tick" transform="translate(240.3,720.0) rotate(58)" text-anchor="start">De 1/2 a 1</text>
+<rect class="bar" x="279.6" y="486.1" width="68.5" height="203.9"><title>De 1 a 2: 3.846.759</title></rect>
+<text class="tick" transform="translate(313.8,720.0) rotate(58)" text-anchor="start">De 1 a 2</text>
+<rect class="bar" x="353.1" y="290.8" width="68.5" height="399.2"><title>De 2 a 3: 7.532.815</title></rect>
+<text class="tick" transform="translate(387.4,720.0) rotate(58)" text-anchor="start">De 2 a 3</text>
+<rect class="bar" x="426.6" y="222.1" width="68.5" height="467.9"><title>De 3 a 5: 8.828.956</title></rect>
+<text class="tick" transform="translate(460.9,720.0) rotate(58)" text-anchor="start">De 3 a 5</text>
+<rect class="bar" x="500.1" y="466.5" width="68.5" height="223.5"><title>De 5 a 7: 4.217.691</title></rect>
+<text class="tick" transform="translate(534.4,720.0) rotate(58)" text-anchor="start">De 5 a 7</text>
+<rect class="bar" x="573.7" y="525.7" width="68.5" height="164.3"><title>De 7 a 10: 3.099.717</title></rect>
+<text class="tick" transform="translate(607.9,720.0) rotate(58)" text-anchor="start">De 7 a 10</text>
+<rect class="bar" x="647.2" y="564.5" width="68.5" height="125.5"><title>De 10 a 15: 2.366.993</title></rect>
+<text class="tick" transform="translate(681.5,720.0) rotate(58)" text-anchor="start">De 10 a 15</text>
+<rect class="bar" x="720.7" y="631.1" width="68.5" height="58.9"><title>De 15 a 20: 1.110.961</title></rect>
+<text class="tick" transform="translate(755.0,720.0) rotate(58)" text-anchor="start">De 15 a 20</text>
+<rect class="bar" x="794.3" y="636.2" width="68.5" height="53.8"><title>De 20 a 30: 1.014.544</title></rect>
+<text class="tick" transform="translate(828.5,720.0) rotate(58)" text-anchor="start">De 20 a 30</text>
+<rect class="bar" x="867.8" y="674.1" width="68.5" height="15.9"><title>De 30 a 40: 300.372</title></rect>
+<text class="tick" transform="translate(902.1,720.0) rotate(58)" text-anchor="start">De 30 a 40</text>
+<rect class="bar" x="941.3" y="665.5" width="68.5" height="24.5"><title>De 40 a 60: 462.364</title></rect>
+<text class="tick" transform="translate(975.6,720.0) rotate(58)" text-anchor="start">De 40 a 60</text>
+<rect class="bar" x="1014.9" y="683.4" width="68.5" height="6.6"><title>De 60 a 80: 124.709</title></rect>
+<text class="tick" transform="translate(1049.1,720.0) rotate(58)" text-anchor="start">De 60 a 80</text>
+<rect class="bar" x="1088.4" y="682.5" width="68.5" height="7.5"><title>De 80 a 160: 140.889</title></rect>
+<text class="tick" transform="translate(1122.6,720.0) rotate(58)" text-anchor="start">De 80 a 160</text>
+<rect class="bar" x="1161.9" y="688.1" width="68.5" height="1.9"><title>De 160 a 240: 35.917</title></rect>
+<text class="tick" transform="translate(1196.2,720.0) rotate(58)" text-anchor="start">De 160 a 240</text>
+<rect class="bar" x="1235.4" y="689.1" width="68.5" height="0.9"><title>De 240 a 320: 17.789</title></rect>
+<text class="tick" transform="translate(1269.7,720.0) rotate(58)" text-anchor="start">De 240 a 320</text>
+<rect class="bar" x="1309.0" y="688.1" width="68.5" height="1.9"><title>Mais de 320: 35.462</title></rect>
+<text class="tick" transform="translate(1343.2,720.0) rotate(58)" text-anchor="start">Mais de 320</text>
+<text x="755.0" y="955.0" class="axis" text-anchor="middle">Faixas de renda publicadas (salarios minimos mensais)</text>
+<text class="axis" transform="translate(38,425.0) rotate(-90)" text-anchor="middle">Declarantes</text>
+<text x="44.0" y="1012.0" class="note">Eixo X: faixas de renda publicadas pela fonte (salarios minimos mensais). Eixo Y: declarantes. Fonte nao listada na</text>
+<text x="44.0" y="1038.0" class="note">Tabela 4 extraida da tese de Pedro Herculano, cuja serie ali transcrita se encerra em 2013; entra aqui como extensao</text>
+<text x="44.0" y="1064.0" class="note">propria da serie a partir das publicacoes oficiais da Receita Federal. A fonte e o GNIRPF 2022, ano-calendario 2021,</text>
 </svg>

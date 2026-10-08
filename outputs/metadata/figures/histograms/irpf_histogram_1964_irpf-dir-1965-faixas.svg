@@ -1,63 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
 <style>
 text{font-family:Arial,Helvetica,sans-serif;fill:#202124}
-.title{font-size:28px;font-weight:700}
-.subtitle{font-size:16px;fill:#4a4f55}
-.axis{font-size:15px;fill:#30343a}
-.tick{font-size:13px;fill:#4a4f55}
-.note{font-size:13px;fill:#4a4f55}
+.title{font-size:42px;font-weight:700}
+.subtitle{font-size:24px;fill:#4a4f55}
+.axis{font-size:24px;fill:#30343a}
+.tick{font-size:20px;fill:#4a4f55}
+.note{font-size:20px;fill:#4a4f55}
 .bar{fill:#2f6f9f}
 .bar:hover{fill:#c85a28}
 .grid{stroke:#d8dde3;stroke-width:1}
 .frame{stroke:#7f8790;stroke-width:1;fill:none}
 </style>
-<rect x="0" y="0" width="1280" height="900" fill="#ffffff"/>
-<text x="34.0" y="44.0" class="title">IRPF 1964 - Brasil</text>
-<text x="34.0" y="72.0" class="subtitle">Brasil. Ministerio da Fazenda. Departamento do Imposto de Renda. Relatorio das atividades do ano de 1965, apresentado ao</text>
-<text x="34.0" y="92.0" class="subtitle">Excelentissimo Senhor Diretor-Geral da Fazenda...</text>
-<line x1="100" y1="590.0" x2="1238" y2="590.0" class="grid"/>
-<text x="88.0" y="594.0" class="tick" text-anchor="end">0</text>
-<line x1="100" y1="474.0" x2="1238" y2="474.0" class="grid"/>
-<text x="88.0" y="478.0" class="tick" text-anchor="end">10k</text>
-<line x1="100" y1="358.0" x2="1238" y2="358.0" class="grid"/>
-<text x="88.0" y="362.0" class="tick" text-anchor="end">20k</text>
-<line x1="100" y1="242.0" x2="1238" y2="242.0" class="grid"/>
-<text x="88.0" y="246.0" class="tick" text-anchor="end">30k</text>
-<line x1="100" y1="126.0" x2="1238" y2="126.0" class="grid"/>
-<text x="88.0" y="130.0" class="tick" text-anchor="end">40k</text>
-<rect x="100" y="126" width="1138" height="464" class="frame"/>
-<rect class="bar" x="102.5" y="386.9" width="70.9" height="203.1"><title>Ate 1.008: 17.510</title></rect>
-<text class="tick" transform="translate(137.9,610.0) rotate(58)" text-anchor="start">Ate 1.008</text>
-<rect class="bar" x="178.4" y="434.1" width="70.9" height="155.9"><title>1.009 a 1.260: 13.442</title></rect>
-<text class="tick" transform="translate(213.8,610.0) rotate(58)" text-anchor="start">1.009 a 1.260</text>
-<rect class="bar" x="254.2" y="195.0" width="70.9" height="395.0"><title>1.261 a 1.890: 34.054</title></rect>
-<text class="tick" transform="translate(289.7,610.0) rotate(58)" text-anchor="start">1.261 a 1.890</text>
-<rect class="bar" x="330.1" y="283.7" width="70.9" height="306.3"><title>1.891 a 2.520: 26.402</title></rect>
-<text class="tick" transform="translate(365.5,610.0) rotate(58)" text-anchor="start">1.891 a 2.520</text>
-<rect class="bar" x="406.0" y="354.9" width="70.9" height="235.1"><title>2.521 a 3.150: 20.265</title></rect>
-<text class="tick" transform="translate(441.4,610.0) rotate(58)" text-anchor="start">2.521 a 3.150</text>
-<rect class="bar" x="481.8" y="400.5" width="70.9" height="189.5"><title>3.151 a 3.780: 16.334</title></rect>
-<text class="tick" transform="translate(517.3,610.0) rotate(58)" text-anchor="start">3.151 a 3.780</text>
-<rect class="bar" x="557.7" y="297.5" width="70.9" height="292.5"><title>3.781 a 5.040: 25.218</title></rect>
-<text class="tick" transform="translate(593.1,610.0) rotate(58)" text-anchor="start">3.781 a 5.040</text>
-<rect class="bar" x="633.6" y="404.7" width="70.9" height="185.3"><title>5.041 a 6.300: 15.976</title></rect>
-<text class="tick" transform="translate(669.0,610.0) rotate(58)" text-anchor="start">5.041 a 6.300</text>
-<rect class="bar" x="709.4" y="489.8" width="70.9" height="100.2"><title>6.301 a 7.560: 8.641</title></rect>
-<text class="tick" transform="translate(744.9,610.0) rotate(58)" text-anchor="start">6.301 a 7.560</text>
-<rect class="bar" x="785.3" y="489.9" width="70.9" height="100.1"><title>7.561 a 10.500: 8.629</title></rect>
-<text class="tick" transform="translate(820.7,610.0) rotate(58)" text-anchor="start">7.561 a 10.500</text>
-<rect class="bar" x="861.2" y="546.8" width="70.9" height="43.2"><title>10.501 a 14.700: 3.726</title></rect>
-<text class="tick" transform="translate(896.6,610.0) rotate(58)" text-anchor="start">10.501 a 14.700</text>
-<rect class="bar" x="937.0" y="572.6" width="70.9" height="17.4"><title>14.701 a 18.900: 1.504</title></rect>
-<text class="tick" transform="translate(972.5,610.0) rotate(58)" text-anchor="start">14.701 a 18.900</text>
-<rect class="bar" x="1012.9" y="579.5" width="70.9" height="10.5"><title>18.901 a 25.200: 909</title></rect>
-<text class="tick" transform="translate(1048.3,610.0) rotate(58)" text-anchor="start">18.901 a 25.200</text>
-<rect class="bar" x="1088.8" y="585.0" width="70.9" height="5.0"><title>25.201 a 33.600: 433</title></rect>
-<text class="tick" transform="translate(1124.2,610.0) rotate(58)" text-anchor="start">25.201 a 33.600</text>
-<rect class="bar" x="1164.6" y="585.0" width="70.9" height="5.0"><title>Acima de 33.601: 433</title></rect>
-<text class="tick" transform="translate(1200.1,610.0) rotate(58)" text-anchor="start">Acima de 33.601</text>
-<text x="640.0" y="788.0" class="axis" text-anchor="middle">Faixas de renda publicadas (Cr$ 1.000)</text>
-<text class="axis" transform="translate(28,358.0) rotate(-90)" text-anchor="middle">Contribuintes</text>
-<text x="34.0" y="828.0" class="note">Eixo X: faixas de renda publicadas pela fonte (Cr$ 1.000). Eixo Y: contribuintes. A soma das subcategorias de contribuintes nesta faixa difere do</text>
-<text x="34.0" y="845.0" class="note">total publicado em 100.</text>
+<rect x="0" y="0" width="1600" height="1120" fill="#ffffff"/>
+<text x="44.0" y="58.0" class="title">IRPF 1964 - Brasil</text>
+<text x="44.0" y="94.0" class="subtitle">Brasil. Ministerio da Fazenda. Departamento do Imposto de Renda. Relatorio das atividades do ano de 1965,</text>
+<text x="44.0" y="124.0" class="subtitle">apresentado ao Excelentissimo Senhor Diretor-Geral da Fazenda...</text>
+<line x1="130" y1="690.0" x2="1380" y2="690.0" class="grid"/>
+<text x="114.0" y="697.0" class="tick" text-anchor="end">0</text>
+<line x1="130" y1="557.5" x2="1380" y2="557.5" class="grid"/>
+<text x="114.0" y="564.5" class="tick" text-anchor="end">10k</text>
+<line x1="130" y1="425.0" x2="1380" y2="425.0" class="grid"/>
+<text x="114.0" y="432.0" class="tick" text-anchor="end">20k</text>
+<line x1="130" y1="292.5" x2="1380" y2="292.5" class="grid"/>
+<text x="114.0" y="299.5" class="tick" text-anchor="end">30k</text>
+<line x1="130" y1="160.0" x2="1380" y2="160.0" class="grid"/>
+<text x="114.0" y="167.0" class="tick" text-anchor="end">40k</text>
+<rect x="130" y="160" width="1250" height="530" class="frame"/>
+<rect class="bar" x="132.5" y="458.0" width="78.3" height="232.0"><title>Ate 1.008: 17.510</title></rect>
+<text class="tick" transform="translate(171.7,720.0) rotate(58)" text-anchor="start">Ate 1.008</text>
+<rect class="bar" x="215.8" y="511.9" width="78.3" height="178.1"><title>1.009 a 1.260: 13.442</title></rect>
+<text class="tick" transform="translate(255.0,720.0) rotate(58)" text-anchor="start">1.009 a 1.260</text>
+<rect class="bar" x="299.2" y="238.8" width="78.3" height="451.2"><title>1.261 a 1.890: 34.054</title></rect>
+<text class="tick" transform="translate(338.3,720.0) rotate(58)" text-anchor="start">1.261 a 1.890</text>
+<rect class="bar" x="382.5" y="340.2" width="78.3" height="349.8"><title>1.891 a 2.520: 26.402</title></rect>
+<text class="tick" transform="translate(421.7,720.0) rotate(58)" text-anchor="start">1.891 a 2.520</text>
+<rect class="bar" x="465.8" y="421.5" width="78.3" height="268.5"><title>2.521 a 3.150: 20.265</title></rect>
+<text class="tick" transform="translate(505.0,720.0) rotate(58)" text-anchor="start">2.521 a 3.150</text>
+<rect class="bar" x="549.2" y="473.6" width="78.3" height="216.4"><title>3.151 a 3.780: 16.334</title></rect>
+<text class="tick" transform="translate(588.3,720.0) rotate(58)" text-anchor="start">3.151 a 3.780</text>
+<rect class="bar" x="632.5" y="355.9" width="78.3" height="334.1"><title>3.781 a 5.040: 25.218</title></rect>
+<text class="tick" transform="translate(671.7,720.0) rotate(58)" text-anchor="start">3.781 a 5.040</text>
+<rect class="bar" x="715.8" y="478.3" width="78.3" height="211.7"><title>5.041 a 6.300: 15.976</title></rect>
+<text class="tick" transform="translate(755.0,720.0) rotate(58)" text-anchor="start">5.041 a 6.300</text>
+<rect class="bar" x="799.2" y="575.5" width="78.3" height="114.5"><title>6.301 a 7.560: 8.641</title></rect>
+<text class="tick" transform="translate(838.3,720.0) rotate(58)" text-anchor="start">6.301 a 7.560</text>
+<rect class="bar" x="882.5" y="575.7" width="78.3" height="114.3"><title>7.561 a 10.500: 8.629</title></rect>
+<text class="tick" transform="translate(921.7,720.0) rotate(58)" text-anchor="start">7.561 a 10.500</text>
+<rect class="bar" x="965.8" y="640.6" width="78.3" height="49.4"><title>10.501 a 14.700: 3.726</title></rect>
+<text class="tick" transform="translate(1005.0,720.0) rotate(58)" text-anchor="start">10.501 a 14.700</text>
+<rect class="bar" x="1049.2" y="670.1" width="78.3" height="19.9"><title>14.701 a 18.900: 1.504</title></rect>
+<text class="tick" transform="translate(1088.3,720.0) rotate(58)" text-anchor="start">14.701 a 18.900</text>
+<rect class="bar" x="1132.5" y="678.0" width="78.3" height="12.0"><title>18.901 a 25.200: 909</title></rect>
+<text class="tick" transform="translate(1171.7,720.0) rotate(58)" text-anchor="start">18.901 a 25.200</text>
+<rect class="bar" x="1215.8" y="684.3" width="78.3" height="5.7"><title>25.201 a 33.600: 433</title></rect>
+<text class="tick" transform="translate(1255.0,720.0) rotate(58)" text-anchor="start">25.201 a 33.600</text>
+<rect class="bar" x="1299.2" y="684.3" width="78.3" height="5.7"><title>Acima de 33.601: 433</title></rect>
+<text class="tick" transform="translate(1338.3,720.0) rotate(58)" text-anchor="start">Acima de 33.601</text>
+<text x="755.0" y="955.0" class="axis" text-anchor="middle">Faixas de renda publicadas (Cr$ 1.000)</text>
+<text class="axis" transform="translate(38,425.0) rotate(-90)" text-anchor="middle">Contribuintes</text>
+<text x="44.0" y="1012.0" class="note">Eixo X: faixas de renda publicadas pela fonte (Cr$ 1.000). Eixo Y: contribuintes. A soma das subcategorias de</text>
+<text x="44.0" y="1038.0" class="note">contribuintes nesta faixa difere do total publicado em 100.</text>
 </svg>

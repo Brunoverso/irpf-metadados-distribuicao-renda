@@ -1,113 +1,113 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
 <style>
 text{font-family:Arial,Helvetica,sans-serif;fill:#202124}
-.title{font-size:28px;font-weight:700}
-.subtitle{font-size:16px;fill:#4a4f55}
-.axis{font-size:15px;fill:#30343a}
-.tick{font-size:13px;fill:#4a4f55}
-.note{font-size:13px;fill:#4a4f55}
+.title{font-size:42px;font-weight:700}
+.subtitle{font-size:24px;fill:#4a4f55}
+.axis{font-size:24px;fill:#30343a}
+.tick{font-size:20px;fill:#4a4f55}
+.note{font-size:20px;fill:#4a4f55}
 .bar{fill:#2f6f9f}
 .bar:hover{fill:#c85a28}
 .grid{stroke:#d8dde3;stroke-width:1}
 .frame{stroke:#7f8790;stroke-width:1;fill:none}
 </style>
-<rect x="0" y="0" width="1280" height="900" fill="#ffffff"/>
-<text x="34.0" y="44.0" class="title">IRPF 2000 - Brasil - rendimento tributavel anual</text>
-<text x="34.0" y="72.0" class="subtitle"></text>
-<line x1="100" y1="590.0" x2="1238" y2="590.0" class="grid"/>
-<text x="88.0" y="594.0" class="tick" text-anchor="end">0</text>
-<line x1="100" y1="435.3" x2="1238" y2="435.3" class="grid"/>
-<text x="88.0" y="439.3" class="tick" text-anchor="end">500k</text>
-<line x1="100" y1="280.7" x2="1238" y2="280.7" class="grid"/>
-<text x="88.0" y="284.7" class="tick" text-anchor="end">1M</text>
-<line x1="100" y1="126.0" x2="1238" y2="126.0" class="grid"/>
-<text x="88.0" y="130.0" class="tick" text-anchor="end">1.5M</text>
-<rect x="100" y="126" width="1138" height="464" class="frame"/>
-<rect class="bar" x="101.5" y="304.6" width="24.8" height="285.4"><title>Acima de R$ 0,00 ate R$ 1,00: 922.735</title></rect>
-<text class="tick" transform="translate(113.9,610.0) rotate(58)" text-anchor="start">Acima de R$ 0,00 ate R$ 1,00</text>
-<rect class="bar" x="129.3" y="531.5" width="24.8" height="58.5"><title>Acima de R$ 1,00 ate R$ 1.000,00: 189.226</title></rect>
-<text class="tick" transform="translate(141.6,610.0) rotate(58)" text-anchor="start">Acima de R$ 1,00 ate R$ 1.0...</text>
-<rect class="bar" x="157.0" y="402.8" width="24.8" height="187.2"><title>Acima de R$ 1.000,00 ate R$ 2.000,00: 605.029</title></rect>
-<text class="tick" transform="translate(169.4,610.0) rotate(58)" text-anchor="start">Acima de R$ 1.000,00 ate R$...</text>
-<rect class="bar" x="184.8" y="514.9" width="24.8" height="75.1"><title>Acima de R$ 2.000,00 ate R$ 3.000,00: 242.754</title></rect>
-<text class="tick" transform="translate(197.1,610.0) rotate(58)" text-anchor="start">Acima de R$ 2.000,00 ate R$...</text>
-<rect class="bar" x="212.5" y="498.4" width="24.8" height="91.6"><title>Acima de R$ 3.000,00 ate R$ 4.000,00: 295.960</title></rect>
-<text class="tick" transform="translate(224.9,610.0) rotate(58)" text-anchor="start">Acima de R$ 3.000,00 ate R$...</text>
-<rect class="bar" x="240.3" y="505.0" width="24.8" height="85.0"><title>Acima de R$ 4.000,00 ate R$ 5.000,00: 274.795</title></rect>
-<text class="tick" transform="translate(252.7,610.0) rotate(58)" text-anchor="start">Acima de R$ 4.000,00 ate R$...</text>
-<rect class="bar" x="268.0" y="485.7" width="24.8" height="104.3"><title>Acima de R$ 5.000,00 ate R$ 6.000,00: 337.323</title></rect>
-<text class="tick" transform="translate(280.4,610.0) rotate(58)" text-anchor="start">Acima de R$ 5.000,00 ate R$...</text>
-<rect class="bar" x="295.8" y="501.8" width="24.8" height="88.2"><title>Acima de R$ 6.000,00 ate R$ 7.000,00: 285.172</title></rect>
-<text class="tick" transform="translate(308.2,610.0) rotate(58)" text-anchor="start">Acima de R$ 6.000,00 ate R$...</text>
-<rect class="bar" x="323.5" y="485.6" width="24.8" height="104.4"><title>Acima de R$ 7.000,00 ate R$ 8.000,00: 337.599</title></rect>
-<text class="tick" transform="translate(335.9,610.0) rotate(58)" text-anchor="start">Acima de R$ 7.000,00 ate R$...</text>
-<rect class="bar" x="351.3" y="468.9" width="24.8" height="121.1"><title>Acima de R$ 8.000,00 ate R$ 9.000,00: 391.360</title></rect>
-<text class="tick" transform="translate(363.7,610.0) rotate(58)" text-anchor="start">Acima de R$ 8.000,00 ate R$...</text>
-<rect class="bar" x="379.1" y="437.0" width="24.8" height="153.0"><title>Acima de R$ 9.000,00 ate R$ 10.000,00: 494.749</title></rect>
-<text class="tick" transform="translate(391.4,610.0) rotate(58)" text-anchor="start">Acima de R$ 9.000,00 ate R$...</text>
-<rect class="bar" x="406.8" y="308.6" width="24.8" height="281.4"><title>Acima de R$ 10.000,00 ate R$ 11.000,00: 909.559</title></rect>
-<text class="tick" transform="translate(419.2,610.0) rotate(58)" text-anchor="start">Acima de R$ 10.000,00 ate R...</text>
-<rect class="bar" x="434.6" y="367.2" width="24.8" height="222.8"><title>Acima de R$ 11.000,00 ate R$ 12.000,00: 720.330</title></rect>
-<text class="tick" transform="translate(447.0,610.0) rotate(58)" text-anchor="start">Acima de R$ 11.000,00 ate R...</text>
-<rect class="bar" x="462.3" y="312.2" width="24.8" height="277.8"><title>Acima de R$ 12.000,00 ate R$ 13.000,00: 898.215</title></rect>
-<text class="tick" transform="translate(474.7,610.0) rotate(58)" text-anchor="start">Acima de R$ 12.000,00 ate R...</text>
-<rect class="bar" x="490.1" y="252.8" width="24.8" height="337.2"><title>Acima de R$ 13.000,00 ate R$ 14.000,00: 1.090.158</title></rect>
-<text class="tick" transform="translate(502.5,610.0) rotate(58)" text-anchor="start">Acima de R$ 13.000,00 ate R...</text>
-<rect class="bar" x="517.8" y="440.0" width="24.8" height="150.0"><title>Acima de R$ 14.000,00 ate R$ 15.000,00: 485.011</title></rect>
-<text class="tick" transform="translate(530.2,610.0) rotate(58)" text-anchor="start">Acima de R$ 14.000,00 ate R...</text>
-<rect class="bar" x="545.6" y="469.2" width="24.8" height="120.8"><title>Acima de R$ 15.000,00 ate R$ 16.000,00: 390.401</title></rect>
-<text class="tick" transform="translate(558.0,610.0) rotate(58)" text-anchor="start">Acima de R$ 15.000,00 ate R...</text>
-<rect class="bar" x="573.4" y="485.3" width="24.8" height="104.7"><title>Acima de R$ 16.000,00 ate R$ 17.000,00: 338.384</title></rect>
-<text class="tick" transform="translate(585.7,610.0) rotate(58)" text-anchor="start">Acima de R$ 16.000,00 ate R...</text>
-<rect class="bar" x="601.1" y="490.0" width="24.8" height="100.0"><title>Acima de R$ 17.000,00 ate R$ 18.000,00: 323.333</title></rect>
-<text class="tick" transform="translate(613.5,610.0) rotate(58)" text-anchor="start">Acima de R$ 17.000,00 ate R...</text>
-<rect class="bar" x="628.9" y="501.4" width="24.8" height="88.6"><title>Acima de R$ 18.000,00 ate R$ 19.000,00: 286.470</title></rect>
-<text class="tick" transform="translate(641.2,610.0) rotate(58)" text-anchor="start">Acima de R$ 18.000,00 ate R...</text>
-<rect class="bar" x="656.6" y="510.8" width="24.8" height="79.2"><title>Acima de R$ 19.000,00 ate R$ 20.000,00: 256.080</title></rect>
-<text class="tick" transform="translate(669.0,610.0) rotate(58)" text-anchor="start">Acima de R$ 19.000,00 ate R...</text>
-<rect class="bar" x="684.4" y="291.9" width="24.8" height="298.1"><title>Acima de R$ 20.000,00 ate R$ 25.000,00: 963.647</title></rect>
-<text class="tick" transform="translate(696.8,610.0) rotate(58)" text-anchor="start">Acima de R$ 20.000,00 ate R...</text>
-<rect class="bar" x="712.1" y="393.0" width="24.8" height="197.0"><title>Acima de R$ 25.000,00 ate R$ 30.000,00: 636.869</title></rect>
-<text class="tick" transform="translate(724.5,610.0) rotate(58)" text-anchor="start">Acima de R$ 25.000,00 ate R...</text>
-<rect class="bar" x="739.9" y="349.6" width="24.8" height="240.4"><title>Acima de R$ 30.000,00 ate R$ 40.000,00: 777.229</title></rect>
-<text class="tick" transform="translate(752.3,610.0) rotate(58)" text-anchor="start">Acima de R$ 30.000,00 ate R...</text>
-<rect class="bar" x="767.6" y="452.0" width="24.8" height="138.0"><title>Acima de R$ 40.000,00 ate R$ 50.000,00: 446.278</title></rect>
-<text class="tick" transform="translate(780.0,610.0) rotate(58)" text-anchor="start">Acima de R$ 40.000,00 ate R...</text>
-<rect class="bar" x="795.4" y="423.0" width="24.8" height="167.0"><title>Acima de R$ 50.000,00 ate R$ 75.000,00: 539.839</title></rect>
-<text class="tick" transform="translate(807.8,610.0) rotate(58)" text-anchor="start">Acima de R$ 50.000,00 ate R...</text>
-<rect class="bar" x="823.2" y="520.8" width="24.8" height="69.2"><title>Acima de R$ 75.000,00 ate R$ 100.000,00: 223.638</title></rect>
-<text class="tick" transform="translate(835.5,610.0) rotate(58)" text-anchor="start">Acima de R$ 75.000,00 ate R...</text>
-<rect class="bar" x="850.9" y="557.2" width="24.8" height="32.8"><title>Acima de R$ 100.000,00 ate R$ 125.000,00: 106.143</title></rect>
-<text class="tick" transform="translate(863.3,610.0) rotate(58)" text-anchor="start">Acima de R$ 100.000,00 ate...</text>
-<rect class="bar" x="878.7" y="573.2" width="24.8" height="16.8"><title>Acima de R$ 125.000,00 ate R$ 150.000,00: 54.259</title></rect>
-<text class="tick" transform="translate(891.0,610.0) rotate(58)" text-anchor="start">Acima de R$ 125.000,00 ate...</text>
-<rect class="bar" x="906.4" y="575.9" width="24.8" height="14.1"><title>Acima de R$ 150.000,00 ate R$ 200.000,00: 45.642</title></rect>
-<text class="tick" transform="translate(918.8,610.0) rotate(58)" text-anchor="start">Acima de R$ 150.000,00 ate...</text>
-<rect class="bar" x="934.2" y="585.1" width="24.8" height="4.9"><title>Acima de R$ 200.000,00 ate R$ 250.000,00: 15.934</title></rect>
-<text class="tick" transform="translate(946.6,610.0) rotate(58)" text-anchor="start">Acima de R$ 200.000,00 ate...</text>
-<rect class="bar" x="961.9" y="587.7" width="24.8" height="2.3"><title>Acima de R$ 250.000,00 ate R$ 300.000,00: 7.513</title></rect>
-<text class="tick" transform="translate(974.3,610.0) rotate(58)" text-anchor="start">Acima de R$ 250.000,00 ate...</text>
-<rect class="bar" x="989.7" y="588.0" width="24.8" height="2.0"><title>Acima de R$ 300.000,00 ate R$ 400.000,00: 6.488</title></rect>
-<text class="tick" transform="translate(1002.1,610.0) rotate(58)" text-anchor="start">Acima de R$ 300.000,00 ate...</text>
-<rect class="bar" x="1017.5" y="589.1" width="24.8" height="0.9"><title>Acima de R$ 400.000,00 ate R$ 500.000,00: 2.779</title></rect>
-<text class="tick" transform="translate(1029.8,610.0) rotate(58)" text-anchor="start">Acima de R$ 400.000,00 ate...</text>
-<rect class="bar" x="1045.2" y="589.2" width="24.8" height="0.8"><title>Acima de R$ 500.000,00 ate R$ 750.000,00: 2.683</title></rect>
-<text class="tick" transform="translate(1057.6,610.0) rotate(58)" text-anchor="start">Acima de R$ 500.000,00 ate...</text>
-<rect class="bar" x="1073.0" y="589.7" width="24.8" height="0.3"><title>Acima de R$ 750.000,00 ate R$ 1.000.000,00: 1.039</title></rect>
-<text class="tick" transform="translate(1085.3,610.0) rotate(58)" text-anchor="start">Acima de R$ 750.000,00 ate...</text>
-<rect class="bar" x="1100.7" y="589.6" width="24.8" height="0.4"><title>Acima de R$ 1.000.000,00 ate R$ 2.500.000,00: 1.215</title></rect>
-<text class="tick" transform="translate(1113.1,610.0) rotate(58)" text-anchor="start">Acima de R$ 1.000.000,00 at...</text>
-<rect class="bar" x="1128.5" y="589.9" width="24.8" height="0.1"><title>Acima de R$ 2.500.000,00 ate R$ 5.000.000,00: 236</title></rect>
-<text class="tick" transform="translate(1140.9,610.0) rotate(58)" text-anchor="start">Acima de R$ 2.500.000,00 at...</text>
-<rect class="bar" x="1156.2" y="590.0" width="24.8" height="0.0"><title>Acima de R$ 5.000.000,00 ate R$ 7.500.000,00: 36</title></rect>
-<text class="tick" transform="translate(1168.6,610.0) rotate(58)" text-anchor="start">Acima de R$ 5.000.000,00 at...</text>
-<rect class="bar" x="1184.0" y="590.0" width="24.8" height="0.0"><title>Acima de R$ 7.500.000,00 ate R$ 10.000.000,00: 18</title></rect>
-<text class="tick" transform="translate(1196.4,610.0) rotate(58)" text-anchor="start">Acima de R$ 7.500.000,00 at...</text>
-<rect class="bar" x="1211.7" y="590.0" width="24.8" height="0.0"><title>Acima de R$ 10.000.000,00: 16</title></rect>
-<text class="tick" transform="translate(1224.1,610.0) rotate(58)" text-anchor="start">Acima de R$ 10.000.000,00</text>
-<text x="640.0" y="788.0" class="axis" text-anchor="middle">Faixas de renda publicadas (R$ 1,00 anuais)</text>
-<text class="axis" transform="translate(28,358.0) rotate(-90)" text-anchor="middle">Declaracoes</text>
-<text x="34.0" y="828.0" class="note">Eixo X: faixas de renda publicadas pela fonte (R$ 1,00 anuais). Eixo Y: declaracoes. A Tabela 4 de Pedro Herculano mapeia o ano-calendario 2000 como</text>
-<text x="34.0" y="845.0" class="note">Torres (2003), ordenado por RBT e reportando RBT. O anexo de Torres traz dados acumulados por corte de renda tributavel anual: numero de declaracoes</text>
-<text x="34.0" y="862.0" class="note">acima do corte, valor total da renda tributavel acima do co...</text>
+<rect x="0" y="0" width="1600" height="1120" fill="#ffffff"/>
+<text x="44.0" y="58.0" class="title">IRPF 2000 - Brasil - rendimento tributavel anual</text>
+<text x="44.0" y="94.0" class="subtitle"></text>
+<line x1="130" y1="690.0" x2="1380" y2="690.0" class="grid"/>
+<text x="114.0" y="697.0" class="tick" text-anchor="end">0</text>
+<line x1="130" y1="513.3" x2="1380" y2="513.3" class="grid"/>
+<text x="114.0" y="520.3" class="tick" text-anchor="end">500k</text>
+<line x1="130" y1="336.7" x2="1380" y2="336.7" class="grid"/>
+<text x="114.0" y="343.7" class="tick" text-anchor="end">1M</text>
+<line x1="130" y1="160.0" x2="1380" y2="160.0" class="grid"/>
+<text x="114.0" y="167.0" class="tick" text-anchor="end">1.5M</text>
+<rect x="130" y="160" width="1250" height="530" class="frame"/>
+<rect class="bar" x="131.5" y="364.0" width="27.5" height="326.0"><title>Acima de R$ 0,00 ate R$ 1,00: 922.735</title></rect>
+<text class="tick" transform="translate(145.2,720.0) rotate(58)" text-anchor="start">Acima de R$ 0,00 ate R$...</text>
+<rect class="bar" x="162.0" y="623.1" width="27.5" height="66.9"><title>Acima de R$ 1,00 ate R$ 1.000,00: 189.226</title></rect>
+<text class="tick" transform="translate(175.7,720.0) rotate(58)" text-anchor="start">Acima de R$ 1,00 ate R$...</text>
+<rect class="bar" x="192.5" y="476.2" width="27.5" height="213.8"><title>Acima de R$ 1.000,00 ate R$ 2.000,00: 605.029</title></rect>
+<text class="tick" transform="translate(206.2,720.0) rotate(58)" text-anchor="start">Acima de R$ 1.000,00 at...</text>
+<rect class="bar" x="223.0" y="604.2" width="27.5" height="85.8"><title>Acima de R$ 2.000,00 ate R$ 3.000,00: 242.754</title></rect>
+<text class="tick" transform="translate(236.7,720.0) rotate(58)" text-anchor="start">Acima de R$ 2.000,00 at...</text>
+<rect class="bar" x="253.5" y="585.4" width="27.5" height="104.6"><title>Acima de R$ 3.000,00 ate R$ 4.000,00: 295.960</title></rect>
+<text class="tick" transform="translate(267.2,720.0) rotate(58)" text-anchor="start">Acima de R$ 3.000,00 at...</text>
+<rect class="bar" x="283.9" y="592.9" width="27.5" height="97.1"><title>Acima de R$ 4.000,00 ate R$ 5.000,00: 274.795</title></rect>
+<text class="tick" transform="translate(297.7,720.0) rotate(58)" text-anchor="start">Acima de R$ 4.000,00 at...</text>
+<rect class="bar" x="314.4" y="570.8" width="27.5" height="119.2"><title>Acima de R$ 5.000,00 ate R$ 6.000,00: 337.323</title></rect>
+<text class="tick" transform="translate(328.2,720.0) rotate(58)" text-anchor="start">Acima de R$ 5.000,00 at...</text>
+<rect class="bar" x="344.9" y="589.2" width="27.5" height="100.8"><title>Acima de R$ 6.000,00 ate R$ 7.000,00: 285.172</title></rect>
+<text class="tick" transform="translate(358.7,720.0) rotate(58)" text-anchor="start">Acima de R$ 6.000,00 at...</text>
+<rect class="bar" x="375.4" y="570.7" width="27.5" height="119.3"><title>Acima de R$ 7.000,00 ate R$ 8.000,00: 337.599</title></rect>
+<text class="tick" transform="translate(389.1,720.0) rotate(58)" text-anchor="start">Acima de R$ 7.000,00 at...</text>
+<rect class="bar" x="405.9" y="551.7" width="27.5" height="138.3"><title>Acima de R$ 8.000,00 ate R$ 9.000,00: 391.360</title></rect>
+<text class="tick" transform="translate(419.6,720.0) rotate(58)" text-anchor="start">Acima de R$ 8.000,00 at...</text>
+<rect class="bar" x="436.4" y="515.2" width="27.5" height="174.8"><title>Acima de R$ 9.000,00 ate R$ 10.000,00: 494.749</title></rect>
+<text class="tick" transform="translate(450.1,720.0) rotate(58)" text-anchor="start">Acima de R$ 9.000,00 at...</text>
+<rect class="bar" x="466.9" y="368.6" width="27.5" height="321.4"><title>Acima de R$ 10.000,00 ate R$ 11.000,00: 909.559</title></rect>
+<text class="tick" transform="translate(480.6,720.0) rotate(58)" text-anchor="start">Acima de R$ 10.000,00 a...</text>
+<rect class="bar" x="497.4" y="435.5" width="27.5" height="254.5"><title>Acima de R$ 11.000,00 ate R$ 12.000,00: 720.330</title></rect>
+<text class="tick" transform="translate(511.1,720.0) rotate(58)" text-anchor="start">Acima de R$ 11.000,00 a...</text>
+<rect class="bar" x="527.8" y="372.6" width="27.5" height="317.4"><title>Acima de R$ 12.000,00 ate R$ 13.000,00: 898.215</title></rect>
+<text class="tick" transform="translate(541.6,720.0) rotate(58)" text-anchor="start">Acima de R$ 12.000,00 a...</text>
+<rect class="bar" x="558.3" y="304.8" width="27.5" height="385.2"><title>Acima de R$ 13.000,00 ate R$ 14.000,00: 1.090.158</title></rect>
+<text class="tick" transform="translate(572.1,720.0) rotate(58)" text-anchor="start">Acima de R$ 13.000,00 a...</text>
+<rect class="bar" x="588.8" y="518.6" width="27.5" height="171.4"><title>Acima de R$ 14.000,00 ate R$ 15.000,00: 485.011</title></rect>
+<text class="tick" transform="translate(602.6,720.0) rotate(58)" text-anchor="start">Acima de R$ 14.000,00 a...</text>
+<rect class="bar" x="619.3" y="552.1" width="27.5" height="137.9"><title>Acima de R$ 15.000,00 ate R$ 16.000,00: 390.401</title></rect>
+<text class="tick" transform="translate(633.0,720.0) rotate(58)" text-anchor="start">Acima de R$ 15.000,00 a...</text>
+<rect class="bar" x="649.8" y="570.4" width="27.5" height="119.6"><title>Acima de R$ 16.000,00 ate R$ 17.000,00: 338.384</title></rect>
+<text class="tick" transform="translate(663.5,720.0) rotate(58)" text-anchor="start">Acima de R$ 16.000,00 a...</text>
+<rect class="bar" x="680.3" y="575.8" width="27.5" height="114.2"><title>Acima de R$ 17.000,00 ate R$ 18.000,00: 323.333</title></rect>
+<text class="tick" transform="translate(694.0,720.0) rotate(58)" text-anchor="start">Acima de R$ 17.000,00 a...</text>
+<rect class="bar" x="710.8" y="588.8" width="27.5" height="101.2"><title>Acima de R$ 18.000,00 ate R$ 19.000,00: 286.470</title></rect>
+<text class="tick" transform="translate(724.5,720.0) rotate(58)" text-anchor="start">Acima de R$ 18.000,00 a...</text>
+<rect class="bar" x="741.3" y="599.5" width="27.5" height="90.5"><title>Acima de R$ 19.000,00 ate R$ 20.000,00: 256.080</title></rect>
+<text class="tick" transform="translate(755.0,720.0) rotate(58)" text-anchor="start">Acima de R$ 19.000,00 a...</text>
+<rect class="bar" x="771.7" y="349.5" width="27.5" height="340.5"><title>Acima de R$ 20.000,00 ate R$ 25.000,00: 963.647</title></rect>
+<text class="tick" transform="translate(785.5,720.0) rotate(58)" text-anchor="start">Acima de R$ 20.000,00 a...</text>
+<rect class="bar" x="802.2" y="465.0" width="27.5" height="225.0"><title>Acima de R$ 25.000,00 ate R$ 30.000,00: 636.869</title></rect>
+<text class="tick" transform="translate(816.0,720.0) rotate(58)" text-anchor="start">Acima de R$ 25.000,00 a...</text>
+<rect class="bar" x="832.7" y="415.4" width="27.5" height="274.6"><title>Acima de R$ 30.000,00 ate R$ 40.000,00: 777.229</title></rect>
+<text class="tick" transform="translate(846.5,720.0) rotate(58)" text-anchor="start">Acima de R$ 30.000,00 a...</text>
+<rect class="bar" x="863.2" y="532.3" width="27.5" height="157.7"><title>Acima de R$ 40.000,00 ate R$ 50.000,00: 446.278</title></rect>
+<text class="tick" transform="translate(877.0,720.0) rotate(58)" text-anchor="start">Acima de R$ 40.000,00 a...</text>
+<rect class="bar" x="893.7" y="499.3" width="27.5" height="190.7"><title>Acima de R$ 50.000,00 ate R$ 75.000,00: 539.839</title></rect>
+<text class="tick" transform="translate(907.4,720.0) rotate(58)" text-anchor="start">Acima de R$ 50.000,00 a...</text>
+<rect class="bar" x="924.2" y="611.0" width="27.5" height="79.0"><title>Acima de R$ 75.000,00 ate R$ 100.000,00: 223.638</title></rect>
+<text class="tick" transform="translate(937.9,720.0) rotate(58)" text-anchor="start">Acima de R$ 75.000,00 a...</text>
+<rect class="bar" x="954.7" y="652.5" width="27.5" height="37.5"><title>Acima de R$ 100.000,00 ate R$ 125.000,00: 106.143</title></rect>
+<text class="tick" transform="translate(968.4,720.0) rotate(58)" text-anchor="start">Acima de R$ 100.000,00...</text>
+<rect class="bar" x="985.2" y="670.8" width="27.5" height="19.2"><title>Acima de R$ 125.000,00 ate R$ 150.000,00: 54.259</title></rect>
+<text class="tick" transform="translate(998.9,720.0) rotate(58)" text-anchor="start">Acima de R$ 125.000,00...</text>
+<rect class="bar" x="1015.6" y="673.9" width="27.5" height="16.1"><title>Acima de R$ 150.000,00 ate R$ 200.000,00: 45.642</title></rect>
+<text class="tick" transform="translate(1029.4,720.0) rotate(58)" text-anchor="start">Acima de R$ 150.000,00...</text>
+<rect class="bar" x="1046.1" y="684.4" width="27.5" height="5.6"><title>Acima de R$ 200.000,00 ate R$ 250.000,00: 15.934</title></rect>
+<text class="tick" transform="translate(1059.9,720.0) rotate(58)" text-anchor="start">Acima de R$ 200.000,00...</text>
+<rect class="bar" x="1076.6" y="687.3" width="27.5" height="2.7"><title>Acima de R$ 250.000,00 ate R$ 300.000,00: 7.513</title></rect>
+<text class="tick" transform="translate(1090.4,720.0) rotate(58)" text-anchor="start">Acima de R$ 250.000,00...</text>
+<rect class="bar" x="1107.1" y="687.7" width="27.5" height="2.3"><title>Acima de R$ 300.000,00 ate R$ 400.000,00: 6.488</title></rect>
+<text class="tick" transform="translate(1120.9,720.0) rotate(58)" text-anchor="start">Acima de R$ 300.000,00...</text>
+<rect class="bar" x="1137.6" y="689.0" width="27.5" height="1.0"><title>Acima de R$ 400.000,00 ate R$ 500.000,00: 2.779</title></rect>
+<text class="tick" transform="translate(1151.3,720.0) rotate(58)" text-anchor="start">Acima de R$ 400.000,00...</text>
+<rect class="bar" x="1168.1" y="689.1" width="27.5" height="0.9"><title>Acima de R$ 500.000,00 ate R$ 750.000,00: 2.683</title></rect>
+<text class="tick" transform="translate(1181.8,720.0) rotate(58)" text-anchor="start">Acima de R$ 500.000,00...</text>
+<rect class="bar" x="1198.6" y="689.6" width="27.5" height="0.4"><title>Acima de R$ 750.000,00 ate R$ 1.000.000,00: 1.039</title></rect>
+<text class="tick" transform="translate(1212.3,720.0) rotate(58)" text-anchor="start">Acima de R$ 750.000,00...</text>
+<rect class="bar" x="1229.1" y="689.6" width="27.5" height="0.4"><title>Acima de R$ 1.000.000,00 ate R$ 2.500.000,00: 1.215</title></rect>
+<text class="tick" transform="translate(1242.8,720.0) rotate(58)" text-anchor="start">Acima de R$ 1.000.000,0...</text>
+<rect class="bar" x="1259.5" y="689.9" width="27.5" height="0.1"><title>Acima de R$ 2.500.000,00 ate R$ 5.000.000,00: 236</title></rect>
+<text class="tick" transform="translate(1273.3,720.0) rotate(58)" text-anchor="start">Acima de R$ 2.500.000,0...</text>
+<rect class="bar" x="1290.0" y="690.0" width="27.5" height="0.0"><title>Acima de R$ 5.000.000,00 ate R$ 7.500.000,00: 36</title></rect>
+<text class="tick" transform="translate(1303.8,720.0) rotate(58)" text-anchor="start">Acima de R$ 5.000.000,0...</text>
+<rect class="bar" x="1320.5" y="690.0" width="27.5" height="0.0"><title>Acima de R$ 7.500.000,00 ate R$ 10.000.000,00: 18</title></rect>
+<text class="tick" transform="translate(1334.3,720.0) rotate(58)" text-anchor="start">Acima de R$ 7.500.000,0...</text>
+<rect class="bar" x="1351.0" y="690.0" width="27.5" height="0.0"><title>Acima de R$ 10.000.000,00: 16</title></rect>
+<text class="tick" transform="translate(1364.8,720.0) rotate(58)" text-anchor="start">Acima de R$ 10.000.000,...</text>
+<text x="755.0" y="955.0" class="axis" text-anchor="middle">Faixas de renda publicadas (R$ 1,00 anuais)</text>
+<text class="axis" transform="translate(38,425.0) rotate(-90)" text-anchor="middle">Declaracoes</text>
+<text x="44.0" y="1012.0" class="note">Eixo X: faixas de renda publicadas pela fonte (R$ 1,00 anuais). Eixo Y: declaracoes. A Tabela 4 de Pedro Herculano</text>
+<text x="44.0" y="1038.0" class="note">mapeia o ano-calendario 2000 como Torres (2003), ordenado por RBT e reportando RBT. O anexo de Torres traz dados</text>
+<text x="44.0" y="1064.0" class="note">acumulados por corte de renda tributavel anual: numero de declaracoes acima do corte, valor total da renda tributavel</text>
 </svg>
